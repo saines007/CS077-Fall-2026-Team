@@ -22,7 +22,24 @@ namespace StoryProduct
         }
         private void Build_Click(object sender, RoutedEventArgs e)
         {
-            ResultText.Text = "Your first interaction works.";
+            ResultText.Text = BuildChecklist(NameInput.Text);
+        }
+        private string BuildChecklist(string userName)
+        {
+            if (string.IsNullOrWhiteSpace(userName))
+            {
+                return "Enter a name before continuing.";
+            }
+
+            string[] tasks = { "Check the item", "Record the result", "Return the tool" };
+            string result = $"Checklist for {userName.Trim()}:\n";
+
+            for (int index = 0; index < tasks.Length; index++)
+            {
+                result += $"{index + 1}. {tasks[index]}\n";
+            }
+
+            return result;
         }
     }
 }
