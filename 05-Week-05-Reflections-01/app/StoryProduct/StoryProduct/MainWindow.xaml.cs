@@ -32,7 +32,11 @@ namespace StoryProduct
             }
 
             string[] tasks = { "Check the item", "Record the result", "Return the tool" };
-            string result = $"Checklist for {userName.Trim()}:\n";
+
+            string cleanName = userName.Trim();
+            cleanName = char.ToUpper(cleanName[0]) + cleanName.Substring(1);
+
+            string result = $"Checklist for {cleanName}:\n";
 
             for (int index = 0; index < tasks.Length; index++)
             {
