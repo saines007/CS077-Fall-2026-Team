@@ -1,31 +1,26 @@
 {
-  "version": 4,
+  "version": 3,
   "targets": {
-    "net8.0-windows": {}
+    "net8.0-windows7.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net8.0-windows": []
+    "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\B217\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\nephi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\B217\\source\\repos\\CS077-Fall-2026-Team\\05-Week-05-Reflections-01\\app\\StoryProduct\\StoryProduct\\StoryProduct.csproj",
+      "projectUniqueName": "C:\\Users\\nephi\\Desktop\\CS077_2026_Team\\05-Week-05-Reflections-01\\app\\StoryProduct\\StoryProduct\\StoryProduct.csproj",
       "projectName": "StoryProduct",
-      "projectPath": "C:\\Users\\B217\\source\\repos\\CS077-Fall-2026-Team\\05-Week-05-Reflections-01\\app\\StoryProduct\\StoryProduct\\StoryProduct.csproj",
-      "packagesPath": "C:\\Users\\B217\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\B217\\source\\repos\\CS077-Fall-2026-Team\\05-Week-05-Reflections-01\\app\\StoryProduct\\StoryProduct\\obj\\",
+      "projectPath": "C:\\Users\\nephi\\Desktop\\CS077_2026_Team\\05-Week-05-Reflections-01\\app\\StoryProduct\\StoryProduct\\StoryProduct.csproj",
+      "packagesPath": "C:\\Users\\nephi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nephi\\Desktop\\CS077_2026_Team\\05-Week-05-Reflections-01\\app\\StoryProduct\\StoryProduct\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\B217\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\nephi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,12 +28,10 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0-windows": {
-          "framework": "net8.0-windows7.0",
+        "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {}
         }
@@ -53,11 +46,10 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.400"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
-      "net8.0-windows": {
-        "framework": "net8.0-windows7.0",
+      "net8.0-windows7.0": {
         "targetAlias": "net8.0-windows",
         "imports": [
           "net461",
@@ -78,7 +70,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

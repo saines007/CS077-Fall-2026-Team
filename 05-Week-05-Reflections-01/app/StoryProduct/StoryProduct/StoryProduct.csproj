@@ -21,7 +21,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Assets\Audio\confirm.wav" />
+    <Content Include="Assets\Audio\confirm.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
