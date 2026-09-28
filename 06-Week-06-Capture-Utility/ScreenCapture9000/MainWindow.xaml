@@ -6,7 +6,46 @@
         xmlns:local="clr-namespace:ScreenCapture9000"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0"
+                Orientation="Horizontal"
+                Margin="0,0,0,10">
+
+            <Button x:Name="btnCapture"
+                Content="Capture Screen"
+                Width="120"
+                Height="35"
+                Margin="0,0,10,0"
+                Click="btnCapture_Click"/>
+
+            <Button x:Name="btnSave"
+                Content="Save PNG"
+                Width="120"
+                Height="35"
+                Click="btnSave_Click"/>
+
+        </StackPanel>
+
+        <Border Grid.Row="1"
+            BorderBrush="Gray"
+            BorderThickness="1"
+            Margin="0,0,0,10">
+
+            <Image x:Name="picPreview"
+               Stretch="Uniform"/>
+
+        </Border>
+
+        <TextBlock x:Name="lblStatus"
+               Grid.Row="2"
+               Text="Ready. Choose Capture Screen."
+               FontSize="14"/>
+
     </Grid>
 </Window>
