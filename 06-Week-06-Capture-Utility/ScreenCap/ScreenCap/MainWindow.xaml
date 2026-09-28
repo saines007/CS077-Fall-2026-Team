@@ -1,0 +1,49 @@
+﻿<Window x:Class="ScreenCap.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ScreenCap"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="460"
+        Width="800">
+
+    <Grid>
+
+        <Label x:Name="lblProgram"
+               Content="Screen Capture 9,001"
+               HorizontalAlignment="Left"
+               Margin="10,10,0,0"
+               VerticalAlignment="Top"
+               Height="50"
+               Width="275"
+               FontSize="24"
+               FontFamily="GOST Common"
+               FontWeight="Bold"/>
+
+        <Button x:Name="btnCapture" Width="100"
+                Height="100"
+                Background="Transparent"
+                BorderThickness="0"
+                Padding="0"
+                Cursor="Hand"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center" Click="btnCapture_Click">
+
+            <Ellipse Width="100"
+                     Height="100"
+                     Fill="Red"/>
+
+        </Button>
+        <Image Source="/Images/vegeta.jpg"
+       Width="530"
+       Height="365"
+       HorizontalAlignment="Left"
+       VerticalAlignment="Top"
+       Margin="10,49,0,0"/>
+        <Label Content="Click button to capture screenshot" HorizontalAlignment="Center" Margin="0,296,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="GOST Common" FontWeight="Bold"/>
+
+    </Grid>
+
+</Window>

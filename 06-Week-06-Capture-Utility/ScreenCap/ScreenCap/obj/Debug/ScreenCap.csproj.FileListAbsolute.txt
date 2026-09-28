@@ -1,0 +1,17 @@
+C:\Users\B217\source\repos\ScreenCap\ScreenCap\bin\Debug\ScreenCap.exe.config
+C:\Users\B217\source\repos\ScreenCap\ScreenCap\bin\Debug\ScreenCap.exe
+C:\Users\B217\source\repos\ScreenCap\ScreenCap\bin\Debug\ScreenCap.pdb
+C:\Users\B217\source\repos\ScreenCap\ScreenCap\obj\Debug\ScreenCap.csproj.AssemblyReference.cache
+C:\Users\B217\source\repos\ScreenCap\ScreenCap\obj\Debug\MainWindow.g.cs
+C:\Users\B217\source\repos\ScreenCap\ScreenCap\obj\Debug\App.g.cs
+C:\Users\B217\source\repos\ScreenCap\ScreenCap\obj\Debug\ScreenCap_MarkupCompile.cache
+C:\Users\B217\source\repos\ScreenCap\ScreenCap\obj\Debug\ScreenCap_MarkupCompile.lref
+C:\Users\B217\source\repos\ScreenCap\ScreenCap\obj\Debug\MainWindow.baml
+C:\Users\B217\source\repos\ScreenCap\ScreenCap\obj\Debug\ScreenCap.g.resources
+C:\Users\B217\source\repos\ScreenCap\ScreenCap\obj\Debug\ScreenCap.Properties.Resources.resources
+C:\Users\B217\source\repos\ScreenCap\ScreenCap\obj\Debug\ScreenCap.csproj.GenerateResource.cache
+C:\Users\B217\source\repos\ScreenCap\ScreenCap\obj\Debug\ScreenCap.csproj.CoreCompileInputs.cache
+C:\Users\B217\source\repos\ScreenCap\ScreenCap\obj\Debug\ScreenCap.exe
+C:\Users\B217\source\repos\ScreenCap\ScreenCap\obj\Debug\ScreenCap.pdb
+C:\Users\B217\source\repos\ScreenCap\ScreenCap\bin\Debug\sounds\cameraclick.mp3
+C:\Users\B217\source\repos\ScreenCap\ScreenCap\obj\Debug\ScreenCap_Content.g.cs
