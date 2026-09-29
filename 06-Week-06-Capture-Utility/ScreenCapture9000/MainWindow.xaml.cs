@@ -17,6 +17,7 @@ using System.IO;
 using System.Windows;
 using System.Windows.Media.Imaging;
 using Forms = System.Windows.Forms;
+using System.Media;
 
 namespace ScreenCapture9000
 {
@@ -25,12 +26,23 @@ namespace ScreenCapture9000
     /// </summary>
     public partial class MainWindow : Window
     {
+        private SoundPlayer cameraSound;
         public MainWindow()
         {
             InitializeComponent();
+            string soundPath = System.IO.Path.Combine(
+    AppDomain.CurrentDomain.BaseDirectory,
+    "Assets",
+    "Audio",
+    "camera.wav");
+             
+            cameraSound = new SoundPlayer(soundPath);
+            cameraSound.Load();
         }
         private void btnCapture_Click(object sender, RoutedEventArgs e)
         {
+            cameraSound.Play();
+             
             var bounds = Forms.Screen.PrimaryScreen.Bounds;
 
             using (Bitmap screenshot = new Bitmap(bounds.Width, bounds.Height))
