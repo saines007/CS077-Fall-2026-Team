@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ScreenShot"
         mc:Ignorable="d"
-        Title="MainWindow" Height="400" Width="600"
+        Title="Screenshot 9,001" Height="400" Width="600"
         ResizeMode="NoResize">
 
     <Grid Margin="0,0,0,-6">
 
         <Label x:Name="lblTitle"
-               Content="Screenshot 9001"
+               Content="Screenshot 9,001"
                HorizontalAlignment="Left"
                Margin="10,10,0,0"
                VerticalAlignment="Top"
@@ -144,6 +144,18 @@
            Stretch="UniformToFill"/>
 
         </Border>
+
+        <TextBox x:Name="txtName"
+         HorizontalAlignment="Left"
+         Margin="365,195,0,0"
+         VerticalAlignment="Top"
+         Width="214"
+         FontSize="18"
+         FontFamily="Bahnschrift SemiBold"
+         Text="Name your screenshot"
+         Foreground="Gray"
+         GotFocus="txtName_GotFocus"
+         LostFocus="txtName_LostFocus"/>
 
     </Grid>
 </Window>
