@@ -1,4 +1,4 @@
-Special Operating Procedure CS077
+Standard Operating Procedure CS077
 
 Situation/Mission/Objective: Collaborating team effort to complete coursework in CS077.
 
@@ -7,6 +7,18 @@ Execution:
 Attempt to be on time for lecture.
 Have fun and be creative.
 DO NOT QUIT
+
+Standard Software Work Environment
+OS: Windows 10/11
+File Repository/Sharing: GitHub - You are here
+IDE: Visual Studio 2022/2026
+Text Editor: Notepad++ - https://notepad-plus-plus.org/
+3D Rendering: Blender - https://www.blender.org/
+Sound/Music Design: LMMS - https://lmms.io/
+Communications: Discord - https://discord.com/
+Bloatware Removal: Bulk Crap Uninstaller - https://www.bcuninstaller.com/
+Graphical Presentation: Google Slides/MS PowerPoint; export via PDF
+Game Design Engine: Unity - https://unity.com/
 
 Pipeline
 1. Create Story/Purpose/Reason
@@ -25,6 +37,8 @@ Portable backups and apps are recommended.
 Primary OS is Microsoft Windows
 Bring your own water source.
 
+
 Command & Control:
-No Designated Team Lead, equal contribution from group.
+Team Lead voting at beginning of project.
+All team members task assignment serves as binding contract.
 Heed all instructions from the Gatekeeper.
