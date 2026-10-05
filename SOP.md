@@ -9,16 +9,16 @@ Have fun and be creative.
 DO NOT QUIT
 
 Standard Software Work Environment
-	OS: Windows 10/11
-	File Repository/Sharing: GitHub - You are here
-	IDE: Visual Studio 2022/2026
-	Text Editor: Notepad++ - https://notepad-plus-plus.org/
-	3D Rendering: Blender - https://www.blender.org/
-	Sound/Music Design: LMMS - https://lmms.io/
-	Communications: Discord - https://discord.com/
-	Bloatware Removal: Bulk Crap Uninstaller - https://www.bcuninstaller.com/
-	Graphical Presentation: Google Slides/MS PowerPoint; export via PDF
-	Game Design Engine: Unity - https://unity.com/
+1. OS: Windows 10/11
+2. File Repository/Sharing: GitHub - You are here
+3. IDE: Visual Studio 2022/2026
+4. Text Editor: Notepad++ - https://notepad-plus-plus.org/
+5. 3D Rendering: Blender - https://www.blender.org/
+6. Sound/Music Design: LMMS - https://lmms.io/
+7. Communications: Discord - https://discord.com/
+8. Bloatware Removal: Bulk Crap Uninstaller - https://www.bcuninstaller.com/
+9. Graphical Presentation: Google Slides/MS PowerPoint; export via PDF
+10. Game Design Engine: Unity - https://unity.com/
 
 Pipeline
 1. Create Story/Purpose/Reason
