@@ -14,50 +14,96 @@ Context: Stealth Evidence Unit. Use clear interface language such as “Secure E
 - Sequence: 
 
 App starts
+
 ↓
 
 Default save location = Desktop
+
 ↓
+
 User can optionally click the folder icon
+
 ↓
+
 Choose a different save folder
+
 ↓
+
 User can optionally type a screenshot name
+
 ↓
+
 User clicks the red screenshot button
+
 ↓
+
 Camera sound plays
+
 ↓
+
 Screenshot 9001 hides
+
 ↓
+
 Wait 200 ms
+
 ↓
+
 Get screen width + height
+
 ↓
+
 Capture the entire primary screen
+
 ↓
+
 Check filename box
+
 ↓
+
 ┌───────────────────────────────────────────┐
+
 │ Custom name entered?                      │
+
 │                                           │
+
 │ YES → sanitize name → "My Screenshot.png" │
+
 │                                           │
+
 │ NO  → Screenshot_2026-10-05_12-34-56.png  │
+
 └───────────────────────────────────────────┘
+
 ↓
+
 Save PNG to selected folder
+
 ↓
+
 Reset textbox to "Name your screenshot"
+
 ↓
+
 Screenshot 9001 reappears
+
 ↓
+
 Window becomes active
+
 ↓
+
 Screenshot preview fades in over 200 ms
+
 ↓
+
 Preview stays visible for 3 seconds
+
 ↓
+
 Preview fades out over 500 ms
+
 ↓
+
 Ready for another screenshot
+
