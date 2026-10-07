@@ -12,6 +12,7 @@ Context: Stealth Evidence Unit. Use clear interface language such as “Secure E
 - Added the text box to be able to name the screenshot.
 - Went thru and fixed the bugs.
 - Sequence: 
+
 App starts
 ↓
 
