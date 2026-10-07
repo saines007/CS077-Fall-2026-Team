@@ -3,15 +3,15 @@ Move repeated capture work into focused methods. Hide or minimize the Grabber du
 Context: Stealth Evidence Unit. Use clear interface language such as “Secure Evidence” and “Record secured,” or equally clear labels.
 
 10/5/26
-​- Changed the code to allow it to run on the in class computer.
-​- Added more comments to explain the process.
-​- Initial prompt, "You're gonna help me make a screenshot program don't say anything yet."
-​- I started by having the ai help me make the XAML, then I went through it feature by feature
-​- Added the sound effect for the screenshot and the folder button to the save location. 
-​- It helped me add the packages and libraries I needed for it to work.
-​- Added the text box to be able to name the screenshot.
-​- Went thru and fixed the bugs.
-​- sequence: 
+- Changed the code to allow it to run on the in class computer.
+- Added more comments to explain the process.
+- Initial prompt, "You're gonna help me make a screenshot program don't say anything yet."
+- I started by having the ai help me make the XAML, then I went through it feature by feature
+- Added the sound effect for the screenshot and the folder button to the save location. 
+- It helped me add the packages and libraries I needed for it to work.
+- Added the text box to be able to name the screenshot.
+- Went thru and fixed the bugs.
+- sequence: 
 App starts
 ↓
 Default save location = Desktop
