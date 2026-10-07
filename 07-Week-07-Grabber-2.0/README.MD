@@ -11,7 +11,7 @@ Context: Stealth Evidence Unit. Use clear interface language such as “Secure E
 - It helped me add the packages and libraries I needed for it to work.
 - Added the text box to be able to name the screenshot.
 - Went thru and fixed the bugs.
-- sequence: 
+- Sequence: 
 App starts
 ↓
 Default save location = Desktop
