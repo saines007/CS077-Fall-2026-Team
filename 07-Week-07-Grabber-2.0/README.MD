@@ -62,8 +62,8 @@ Check filename box
 ↓
 
 ┌───────────────────────────────────────────┐
-
-            Custom name entered?                                           
+|                                           |
+|         Custom name entered?              |                           
   YES → sanitize name → "My Screenshot.png"                                         
   NO  → Screenshot_2026-10-05_12-34-56.png  
 
