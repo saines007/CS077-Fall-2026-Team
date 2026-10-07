@@ -14,6 +14,7 @@ Context: Stealth Evidence Unit. Use clear interface language such as “Secure E
 - Sequence: 
 App starts
 ↓
+
 Default save location = Desktop
 ↓
 User can optionally click the folder icon
