@@ -44,4 +44,4 @@ Luisa: Whiteboard work.
 Vinh: Whiteboard work.
 Roman: Game test, AI prompt and whiteboard work.
 Repository: (https://github.com/saines007/CS077-Fall-2026-Team/tree/main/10-Week-10-Engine-Trials/Action-10A)
-Receipt: Evidence/cs077-10a-receipt.txt
+Receipt: Evidence/CS077-10A-Receipt.txt
