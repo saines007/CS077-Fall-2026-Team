@@ -1,5 +1,5 @@
 CS077 / WEEK 10 / ACTION 10A / ENGINE TRIALS
-Learner: Roman Calles
+Learner: Roman, Luisa, Vinh, Pascual
 GitHub: https://github.com/BroMaan/CS077-2026/tree/main/Week%2010
 Tool: Unity
 Test mode: My local run
