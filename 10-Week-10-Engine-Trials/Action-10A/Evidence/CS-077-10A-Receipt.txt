@@ -1,6 +1,6 @@
 CS077 / WEEK 10 / ACTION 10A / ENGINE TRIALS
-Learner: Roman, Luisa, Vinh, Pascual
-GitHub: https://github.com/BroMaan/CS077-2026/tree/main/Week%2010
+Learner: Roman, Luisa, Vinh, Pascual, Kevin
+GitHub: https://github.com/saines007/CS077-Fall-2026-Team/tree/main/10-Week-10-Engine-Trials
 Tool: Unity
 Test mode: My local run
 Generated: 2026-10-26T19:10:54.015Z
