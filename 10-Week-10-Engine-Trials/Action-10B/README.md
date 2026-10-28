@@ -58,7 +58,7 @@ Vinh - Collaborated with Kevin for White Board requirement R1.
 Task | Owner | Status:
 WB      | Kevin    | Done
 WB      | Vinh     | Done
-GitHub  | Pascual  | In progress
+GitHub  | Pascual  | Done
 Console | Luisa    | Done
 XAML    | Luisa    | In progress
 Engine  | Roman    | In progress
