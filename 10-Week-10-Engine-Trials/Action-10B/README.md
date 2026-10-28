@@ -29,7 +29,11 @@ Lead name, members/contributions and task list with Task | Owner | Status. Keep 
 
 ## Console investigation notes
 
-[Not yet recorded]
+Prediction: "Hello, World, Ari!"
+What I tried: Created a C# Console App named HelloConsole in Visual Studio, added Greeting.cs, replace Program.cs code and attempted to build/run.
+Result / error: CS8370 Feature 'top-level statements' is not available in C# 7.3. Please use language version 9.0 or greater.
+What it means / next step: The project was creating targeting an older .NET Framework which does not support C# 9 top-level statements. Next step: Create a new Console App selecting .NET 9.0.
+Evidence file/link: 10B Error Screenshot (https://github.com/saines007/CS077-Fall-2026-Team/blob/main/10-Week-10-Engine-Trials/Action-10B/Evidence/Screenshots/CS077_10B_Error_Screenshot.png)
 
 ## XAML / WPF investigation notes
 
@@ -55,7 +59,7 @@ Task | Owner | Status:
 WB      | Kevin    | Done
 WB      | Vinh     | Done
 GitHub  | Pascual  | In progress
-Console | Luisa    | In progress
+Console | Luisa    | Done
 XAML    | Luisa    | In progress
 Engine  | Roman    | In progress
 Submit  | Everyone | In progress
