@@ -27,7 +27,7 @@ Assets\Scripts\HelloWorld.cs(2,7): error CS0246: The type or namespace name 'Hel
 ## Working arrangement
 Group
 Lead: Kevin
-Members / contributions: Luisa - Worked on "Hello World" in visual studio for the console part of the requirement -R2.
+Members / contributions: Luisa - Worked on "Hello World" in visual studio for the console part of the requirement and XAML -R2,R3.
 Kevin - Collaborated with Vinh for White Board requirement -R1.
 Pascual - Set up the GitHub repository and organized structure -R1,R5.
 Roman - Worked on the engine component of the requirement -R4. 
