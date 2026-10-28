@@ -29,8 +29,8 @@ Pascual - Set up the GitHub repository and organized structure -R1,R5.
 Roman - Worked on the engine component of the requirement -R4. 
 Vinh - Collaborated with Kevin for White Board requirement R1.
 Task | Owner | Status:
-WB      | Kevin    | In progress
-WB      | Vinh     | In progress
+WB      | Kevin    | Done
+WB      | Vinh     | Done
 GitHub  | Pascual  | In progress
 Console | Luisa    | In progress
 XAML    | Luisa    | In progress
