@@ -4,11 +4,12 @@ Put your name down for one task to complete.
 
 
 ## Working arrangement
-Task | Owner | Status:
-R1   |          | In Progress
-R2   |          | In progress
-R5   |          | In progress
-R8   |          | In progress
+Task | Owner     | Status:
+R1   |  Vinh     | In Progress
+R2   |  Kevin    | In progress
+R5   |  Pascual  | In progress
+R8   |  Roman    | In progress
+PM   |  Luisa    | In progress
 
 R1 - Select and explain one capture need
 Selected context: Build for Your Own Story. Reason: A person in your world needs a captured image that preserves visual information before an event changes, disappears, or becomes difficult to prove.
