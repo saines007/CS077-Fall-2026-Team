@@ -37,7 +37,13 @@ Evidence file/link: 10B Error Screenshot (https://github.com/saines007/CS077-Fal
 
 ## XAML / WPF investigation notes
 
-[Not yet recorded]
+XAML does: Defines and formats the visual layout, controls, and appearance of a Windows application UI. It separates visual design from program code while connecting UI elements to C# through names and event handlers.
+C# code-behind does: Handles program logic, user interactions, and event responses like button clicks. It dynamically updates XAML controls at runtime and bridges the visual UI with underlying business objects
+Prediction: The C# application will perform its intended function or display the expected UI/console output based on the project template selected.
+What I tried: Configured the C# project in Visual Studio, added the necessary source files/XAML markup, and attempted to build/run the application.
+Result / error: CS0105 The using directive for 'System.Windows' appeared previously in this namespace
+What it means / next step: The namespace System.Windows has been imported more than once in the same file. To resolve the warning, open MainWindow.xaml.cs and delete the duplicate using System.Windows; line at line 2.
+Evidence file/link: CS0105 Warning Screenshot (https://github.com/saines007/CS077-Fall-2026-Team/blob/main/10-Week-10-Engine-Trials/Action-10B/Evidence/Screenshots/CS077_10B_WPF_Error_Screenshot.png)
 
 ## Engine investigation notes
 
@@ -60,7 +66,7 @@ WB      | Kevin    | Done
 WB      | Vinh     | Done
 GitHub  | Pascual  | Done
 Console | Luisa    | Done
-XAML    | Luisa    | In progress
+XAML    | Luisa    | Done
 Engine  | Roman    | Done
 Submit  | Everyone | Done
 
