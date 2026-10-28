@@ -35,7 +35,7 @@ GitHub  | Pascual  | In progress
 Console | Luisa    | In progress
 XAML    | Luisa    | In progress
 Engine  | Roman    | In progress
-Submit  | Everyone | In progress
+Submit  | Everyone | Done
 
 
 
