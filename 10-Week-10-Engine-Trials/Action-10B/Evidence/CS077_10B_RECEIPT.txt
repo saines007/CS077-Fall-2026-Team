@@ -8,7 +8,7 @@ Engine run result: I ran it and saw Hello World
 Due: October 28, 2026 at 12:35 PM Pacific
 Working arrangement: Group
 Lead: Kevin
-Members / contributions: Luisa - Worked on "Hello World" in visual studio for the console part of the requirement.
+Members / contributions: Luisa - Worked on "Hello World" in visual studio for the console part of the requirement and XAML.
 Kevin - Collaborated with Vinh for White Board requirement.
 Pascual - Set up the GitHub repository and organized structure.
 Roman - Worked on the engine component of the engine.
