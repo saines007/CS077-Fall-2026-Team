@@ -4,7 +4,9 @@ Current phase: independent study with teams and tools.
 
 ## Lecture investigation notes
 
-[Not yet recorded]
+>All programming languages do the same things just in different ways. It may be beneficial to use another language.
+>Work order, A0 -> B0 -> A1 -> B1 and so on.
+>Functions Need to be specified with their scope and whether or not they return something.
 
 ## Console investigation notes
 
