@@ -2,6 +2,25 @@
 
 Current phase: independent study with teams and tools.
 
+Put these in your repository.
+Console/
+Editable console project: .csproj, Program.cs, Greeting.cs.
+
+WPF/
+Editable WPF project: .csproj, App files, MainWindow.xaml, MainWindow.xaml.cs, Greeting.cs.
+
+EngineTrial/
+Editable engine project/scene/script and needed assets/settings, including attempted work.
+
+README.md
+Lecture + Console + XAML + Engine notes: prediction, attempt, result, explanation, evidence paths and sources; whiteboard/Discord peer record and verified AI check.
+
+Evidence/
+Lecture/whiteboard evidence, console output, running WPF window, engine scene/object/script and result or error screenshots; cs077-10b-receipt.txt.
+
+Team record / only if grouped
+Lead name, members/contributions and task list with Task | Owner | Status. Keep it in README.md.
+
 ## Lecture investigation notes
 
 >All programming languages do the same things just in different ways. It may be beneficial to use another language.
