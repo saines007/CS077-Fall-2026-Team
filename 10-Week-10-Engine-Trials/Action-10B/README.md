@@ -31,7 +31,7 @@ WB      | Kevin    | In progress
 WB      | Vinh     | In progress
 GitHub  | Pascual  | In progress
 Console | Luisa    | In progress
-XAML    |  ?       | In progress
+XAML    | Luisa    | In progress
 Engine  | Roman    | In progress
 Submit  | Everyone | In progress
 
