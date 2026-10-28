@@ -62,7 +62,7 @@ GitHub  | Pascual  | In progress
 Console | Luisa    | Done
 XAML    | Luisa    | In progress
 Engine  | Roman    | In progress
-Submit  | Everyone | In progress
+Submit  | Everyone | Done
 
 
 
