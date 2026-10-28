@@ -18,7 +18,11 @@ Current phase: independent study with teams and tools.
 
 ## Engine investigation notes
 
-[Not yet recorded]
+I predicted I would encounter an error and I did.
+Initially I was confused because I needed a Greeting.cs which I did not have because I skipped steps 2 and 3 because Luisa was doing them. Once she created those I was able to add it to the Unity and it ran without errors. 
+Recorded Error:
+Assets\Scripts\HelloWorld.cs(2,7): error CS0246: The type or namespace name 'HelloInvestigation' could not be found (are you missing a using directive or an assembly reference?)
+
 
 ## Working arrangement
 Group
