@@ -7,7 +7,7 @@ Put your name down for one task to complete.
 Task | Owner     | Status:
 R1   |  Vinh     | In Progress
 R2   |  Kevin    | In progress
-R5   |  Pascual  | In progress
+R5   |  Pascual  | Done
 R8   |  Roman    | In progress
 PM   |  Luisa    | In progress
 
