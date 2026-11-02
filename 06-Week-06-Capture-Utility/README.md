@@ -6,7 +6,7 @@ Put your name down for one task to complete.
 ## Working arrangement
 Task | Owner     | Status:
 R1   |  Vinh     | Done
-R2   |  Kevin    | In progress
+R2   |  Kevin    | Done
 R5   |  Pascual  | Done
 R8   |  Roman    | In progress
 PM   |  Luisa    | In progress
