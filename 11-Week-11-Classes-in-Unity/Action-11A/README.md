@@ -1,21 +1,9 @@
 # Action 11A requirements / 10 points
-1. Tasks (May need to add/delete tasks as needed for this project)
 2. Explanations (You will have to explain task w/ screenshot)
 3. AI template prompt with complete explanations as needed (If you get stuck)
 4. If you need a visual guide of what is needed click folder /Guide (Delete folder after completed)
 5. Clean up README.md once we are done
 6. WB notes
-
-
-1) Task                 | Owner    | Status: 
-WB                      |          | In progress 
-WB                      |          | In progress 
-GitHub                  | Pascual  | In progress 
-TranslateObject.cs      |          | In progress 
-RotateObject.cs         |          | In progress 
-ChangeObjectColor.cs    |          | In progress 
-Submit                  | Everyone | In progress
-
 
 2) Translation class and observed movement:
 
