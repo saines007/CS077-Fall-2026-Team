@@ -6,7 +6,7 @@
 5. Clean up README.md once we are done
 
 
-1. Task                 | Owner    | Status: 
+1) Task                 | Owner    | Status: 
 WB                      |          | In progress 
 WB                      |          | In progress 
 GitHub                  | Pascual  | In progress 
@@ -16,7 +16,7 @@ ChangeObjectColor.cs    |          | In progress
 Submit                  | Everyone | In progress
 
 
-2. Translation class and observed movement:
+2) Translation class and observed movement:
 
 2 points. Rotation class and observed turning: 
 2 points. Color class and observed startup tint: 
@@ -46,7 +46,7 @@ Ready to explain? Ask a partner to choose a speed, rotation rate, or tint. Predi
 [Needs to be explained]
 
 
-3. Action 11A – Classes in Unity (Answers the above ^^ if needed, use as template or copy paste if it is the same as your observation)
+3) Action 11A – Classes in Unity (Answers the above ^^ if needed, use as template or copy paste if it is the same as your observation)
 Project Description
 
 This project demonstrates three C# classes in Unity that control object movement, rotation, and color.
@@ -91,5 +91,7 @@ Unity Lifecycle
 
 Start() runs once when the component starts. Update() runs repeatedly each frame. The movement and rotation scripts use Time.deltaTime to calculate changes based on elapsed time.
 
-4.Click link below to follow visual guide if you are having trouble on what we need to turn in
-https://github.com/saines007/CS077-Fall-2026-Team/tree/main/11-Week-11-Classes-in-Unity/Action-11A/Guide 
+4) Click link below to follow visual guide if you are having trouble on what we need to turn in
+https://github.com/saines007/CS077-Fall-2026-Team/tree/main/11-Week-11-Classes-in-Unity/Action-11A/Guide
+
+5) Clean up
