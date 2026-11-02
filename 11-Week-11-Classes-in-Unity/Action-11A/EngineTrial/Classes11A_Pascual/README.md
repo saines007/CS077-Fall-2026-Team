@@ -1,4 +1,4 @@
-Action 11A – Classes in Unity (Answers the above ^^ if needed, use as template or copy paste if it is the same as your observation)
+Action 11A – Classes in Unity
 Project Description
 
 This project demonstrates three C# classes in Unity that control object movement, rotation, and color.
