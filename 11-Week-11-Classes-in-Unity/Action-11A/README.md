@@ -4,6 +4,7 @@
 3. AI template prompt with complete explanations as needed (If you get stuck)
 4. If you need a visual guide of what is needed click folder /Guide (Delete folder after completed)
 5. Clean up README.md once we are done
+6. WB notes
 
 
 1) Task                 | Owner    | Status: 
@@ -95,3 +96,23 @@ Start() runs once when the component starts. Update() runs repeatedly each frame
 https://github.com/saines007/CS077-Fall-2026-Team/tree/main/11-Week-11-Classes-in-Unity/Action-11A/Guide
 
 5) Clean up
+
+6) Lecture notes (can use for Wednesday):
+   f(x) loop: prefabs
+   obj -> class -> {vars, f(x), code} -> more code
+   Create a class that moves (actions), different classes, all those classes on a particular object
+   Color, Translate, Rotate, (jump etc)
+   Update() telling you its updating every frame
+   Start() telling you its only updating at startup
+   
+   Unity
+   -----
+   C#
+   -----
+   VS
+   -----
+   .NET
+
+   Properties, unity makes a user interface for us to see
+   3D Temp -> Add Cube -> (make script) Add script -> (test) run app
+   
