@@ -5,6 +5,7 @@
 4. If you need a visual guide of what is needed click folder /Guide (Delete folder after completed)
 5. Clean up README.md once we are done
 
+
 1. Task                 | Owner    | Status: 
 WB                      |          | In progress 
 WB                      |          | In progress 
