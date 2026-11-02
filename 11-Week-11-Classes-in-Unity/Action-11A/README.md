@@ -1,7 +1,7 @@
 # Action 11A requirements / 10 points
 2. Explanations (You will have to explain task w/ screenshot)
 3. AI template prompt with complete explanations as needed (If you get stuck)
-4. If you need a visual guide of what is needed click folder /Guide (Delete folder after completed)
+4. If you need a visual guide of what is needed click folder /Guide
 5. Clean up README.md once we are done
 6. WB notes
 
