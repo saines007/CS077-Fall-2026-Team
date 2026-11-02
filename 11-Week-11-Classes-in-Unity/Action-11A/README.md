@@ -1,4 +1,14 @@
 # Action 11A requirements / 10 points
+Task                 | Owner    | Status: 
+WB                   |          | In progress 
+WB                   |          | In progress 
+GitHub               | Pascual  | In progress 
+TranslateObject.cs   |          | In progress 
+RotateObject.cs      |          | In progress 
+ChangeObjectColor.cs |          | In progress 
+Submit               | Everyone | In progress
+
+
 Translation class and observed movement: 2 points. Rotation class and observed turning: 2 points. Color class and observed startup tint: 2 points. Explanation of class/instance, field/property, and Unity lifecycle using your scene: 3 points. Accessible GitHub repository URL submitted in Canvas the same day: 1 point.
 
 Explain using your own scene
