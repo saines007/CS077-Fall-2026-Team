@@ -5,15 +5,20 @@ Put your name down for one task to complete.
 
 ## Working arrangement
 Task | Owner     | Status:
-R1   |  Vinh     | In Progress
+R1   |  Vinh     | Done
 R2   |  Kevin    | In progress
-R5   |  Pascual  | In progress
+R5   |  Pascual  | Done
 R8   |  Roman    | In progress
 PM   |  Luisa    | In progress
 
-R1 - Select and explain one capture need
-Selected context: Build for Your Own Story. Reason: A person in your world needs a captured image that preserves visual information before an event changes, disappears, or becomes difficult to prove.
-Choose one pathway. Submit its required story position and treatment, original backstory and treatment, or technical project brief. Name the user, capture target, urgency, useful output and risk. Backstory and treatment: Describe the setting, user, event, urgency, captured information, intended result, and the risk created by losing or sharing the image.
+R1:
+Selected context: Original story. 
+Reason: A person needs a captured image that preserves visual information before an event changes, disappears, or becomes difficult to prove.
+User: average fan of the DB series who would like a customized screen capture utility.
+Capture target: current screen and window(s) below the utility.
+Useful output: Screen image of what the user would like to save, for save keeping or public sharing.
+Risk: Possible inclusion and exposure of PII/CUI and other sensitive data not intended for public release.
+
 
 R2 ★ - Complete the gatekeeping and ethics work
 Selected context: Build for Your Own Story. Reason: A person in your world needs a captured image that preserves visual information before an event changes, disappears, or becomes difficult to prove.

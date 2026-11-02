@@ -1,0 +1,37 @@
+### `btnScreenshot_Click` — Quick breakdown
+
+1. Play sound: `Open()` loads the MP3; `Play()` plays it.
+2. Hide window: `this.Hide()` prevents the app appearing in its own screenshot.
+3. Wait: `await Task.Delay(200)` gives the window time to disappear.
+4. Get dimensions: `GetSystemMetrics()` retrieves screen width and height.
+5. Create bitmap: `new Bitmap()` creates a blank image matching your screen.
+6. Capture screen: `Graphics.CopyFromScreen()` copies screen pixels into that image.
+7. Name file: Uses the custom textbox name or generates an automatic timestamp.
+8. Clean filename: `Replace()` changes illegal filename characters to underscores.
+9. Save: `Path.Combine()` builds the file path; `Save()` writes the PNG.
+10. Reset UI: Restores the placeholder text.
+11. Show window: `this.Show()` and `Activate()` bring the app back.
+12. Preview: `ShowScreenshotPreview(filePath)` displays the captured image.
+
+### Important concepts
+
+- `async/await` = asynchronous operations.
+- `using` = automatically disposes resources.
+- `Bitmap` = image storage.
+- `Graphics` = image manipulation.
+- `string` = text.
+- `int` = whole number.
+- `void` = no return value.
+- `try/catch` = handles errors.
+
+### One improvement
+
+Add `try/catch` around saving so users receive an error message if saving fails.
+
+### Test
+
+Name a screenshot `My/Test?Screenshot`.
+
+Expected filename: `My_Test_Screenshot.png`.
+
+Remember: Your two main disposable objects are `Bitmap` and `Graphics`.

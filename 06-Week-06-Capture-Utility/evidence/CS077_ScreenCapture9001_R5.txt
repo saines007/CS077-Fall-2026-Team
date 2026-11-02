@@ -1,0 +1,102 @@
+╔══════════════════════════════════════════════╗ 🔴 SCREEN CAPTURE 9,001 🔴 R5 – ORGANISE AND EXPLAIN THE C# ╚══════════════════════════════════════════════╝
+
+🚀 1. OUR PROJECT – BUILD FOR YOUR OWN STORY
+
+Our program, Screen Capture 9,001, is designed to capture screenshots of the computer screen and save them as PNG images.
+
+We chose the context "Build for Your Own Story" because we wanted to create something that allows people to preserve important visual information before it disappears, changes or becomes difficult to prove.
+
+For example, someone could capture an important online conversation, message or computer error before it gets deleted.
+
+🇯🇵 2. DESIGN AND CONCEPT
+
+We designed our application around the Japanese flag.
+
+⚪ The white background represents the flag. 🔴 The red circle in the centre acts as our capture button. 🐉 Vegeta stands to the side as a decorative feature.
+
+The user simply clicks the red circle to take a screenshot.
+
+The name "Screen Capture 9,001" is a reference to Dragon Ball Z and Vegeta's famous power-level scouter.
+
+We chose this name because we wanted our application to have its own identity rather than looking like an ordinary screenshot tool.
+
+Our little bit of lore is that instead of detecting someone's power level, our application detects and captures what is happening on the screen!
+
+⚙️ 3. CODE ORGANISATION
+
+We organised our C# code using a MainWindow class and a separate ScreenCaptureService class.
+
+MainWindow manages the interface and user interactions, while ScreenCaptureService handles the actual screenshot process.
+
+This separates responsibilities and makes our code easier to understand, maintain and improve.
+
+Our main methods include:
+
+• btnCapture_Click() Runs when the user clicks the red capture button.
+
+• CaptureScreenshot() Coordinates the screenshot process, plays the camera sound and displays a confirmation message.
+
+• CaptureScreen() Captures the primary monitor and saves the image.
+
+📦 4. IMPORTANT VARIABLES AND OBJECTS
+
+• captureSound – A MediaPlayer object that plays the camera sound after a screenshot is taken.
+
+• captureService – An object that accesses our screenshot functionality.
+
+• screenBounds – Stores the dimensions and position of the primary monitor.
+
+• screenshot – A Bitmap object that temporarily stores the captured image.
+
+• graphics – Copies the screen contents into the bitmap.
+
+• filename – Creates a filename using the current date and time.
+
+• filePath – Stores the location where the screenshot is saved.
+
+🛠️ 5. RESOURCE HANDLING
+
+We used using statements for the Bitmap and Graphics objects so their resources are automatically released after the screenshot has been saved.
+
+This helps prevent unnecessary memory usage.
+
+We also used a MediaPlayer object to manage the camera sound and a try-catch statement to handle errors if the screenshot cannot be saved.
+
+Our screenshots are saved in the user's Pictures folder using Environment.SpecialFolder.MyPictures, making them easier to locate later.
+
+💡 6. COMMENTS AND FUTURE IMPROVEMENTS
+
+We included comments throughout our code to explain important operations and make it easier to understand.
+
+We also included three TODO items for future improvements:
+
+[TODO 1] Allow users to choose a custom save location.
+
+[TODO 2] Add support for capturing multiple monitors.
+
+[TODO 3] Allow users to capture a selected area of the screen.
+
+🌟 7. HOW OUR CODE SUPPORTS THE SELECTED CONTEXT
+
+Our program supports "Build for Your Own Story" by giving users a quick and simple way to preserve visual information.
+
+For example, someone might need to capture an important message or conversation before it disappears.
+
+The automatic date and time in the filename helps identify when the screenshot was taken, while the PNG format preserves the captured image.
+
+The red button makes capturing straightforward, the camera sound provides feedback, and the confirmation message tells users where their screenshot has been saved.
+
+🏆 8. FINAL CONCLUSION
+
+Overall, we worked together to create an application that combines a recognisable design, a bit of Dragon Ball-inspired humour and a practical purpose.
+
+Screen Capture 9,001 is more than just a screenshot tool. It gives users a way to preserve important moments on their computer screen before they are gone.
+
+                     🔴 OVER 9,000! 🔴
+
+
+╚══════════════════════════════════════════════╝
+
+📝 ACKNOWLEDGEMENT
+
+ChatGPT was used as an additional resource to help organise, structure and refine the explanations in this document. The project design, concept and group work are our own.
