@@ -31,7 +31,7 @@ An expressive, DBZ-themed C# WPF desktop screen capture utility built to preserv
 | **R6** | Team | Route testing matrix (successful capture, cancelled, blocked, re-capture) | Done |
 | **R7** | Group | 6A and 6B meeting evidence (whiteboard and Discord peer checks) | Done |
 | **R8** | Roman | Capture Utility Receipt, GitHub repository finalization, and testing | Done |
-| **PM** | Luisa | Project management and submission verification | In Progress |
+| **PM** | Luisa | Project management and submission verification | Done |
 
 ## ⚙️ Getting Started & How to Run
 
