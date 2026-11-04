@@ -1,11 +1,11 @@
 # Action 11A requirements / 10 points
-2. Explanations (You will have to explain task w/ screenshot)
-3. AI template prompt with complete explanations as needed (If you get stuck)
-4. If you need a visual guide of what is needed click folder /Guide
-5. Clean up README.md once we are done
-6. WB notes
+1. Explanations (You will have to explain task w/ screenshot)
+2. AI template prompt with complete explanations as needed (If you get stuck)
+3. If you need a visual guide of what is needed click folder /Guide
+4. Clean up README.md once we are done
+5. WB notes
 
-2) Translation class and observed movement:
+1) Translation class and observed movement:
 
 2 points. Rotation class and observed turning: 
 2 points. Color class and observed startup tint: 
@@ -35,7 +35,7 @@ Ready to explain? Ask a partner to choose a speed, rotation rate, or tint. Predi
 [Needs to be explained]
 
 
-3) Action 11A – Classes in Unity (Answers the above ^^ if needed, use as template or copy paste if it is the same as your observation)
+2) Action 11A – Classes in Unity (Answers the above ^^ if needed, use as template or copy paste if it is the same as your observation)
 Project Description
 
 This project demonstrates three C# classes in Unity that control object movement, rotation, and color.
@@ -80,12 +80,12 @@ Unity Lifecycle
 
 Start() runs once when the component starts. Update() runs repeatedly each frame. The movement and rotation scripts use Time.deltaTime to calculate changes based on elapsed time.
 
-4) Click link below to follow visual guide if you are having trouble on what we need to turn in
+3) Click link below to follow visual guide if you are having trouble on what we need to turn in
 https://github.com/saines007/CS077-Fall-2026-Team/tree/main/11-Week-11-Classes-in-Unity/Action-11A/Guide
 
-5) Clean up
+4) Clean up
 
-6) Lecture notes (can use for Wednesday):
+5) Lecture notes (can use for Wednesday):
    f(x) loop: prefabs
    obj -> class -> {vars, f(x), code} -> more code
    Create a class that moves (actions), different classes, all those classes on a particular object
