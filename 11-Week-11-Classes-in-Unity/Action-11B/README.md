@@ -17,6 +17,8 @@ Submit                      | Everyone | Done
 
 Link to complete your section of notes: https://github.com/saines007/CS077-Fall-2026-Team/blob/main/11-Week-11-Classes-in-Unity/Action-11B/Notes/CS077_UPDATE_YOUR_SECITOIN.md
 
+^^^ Once completed we can rename the file
+
 
 
 https://github.com/saines007/CS077-Fall-2026-Team/tree/main/11-Week-11-Classes-in-Unity/Action-11B
