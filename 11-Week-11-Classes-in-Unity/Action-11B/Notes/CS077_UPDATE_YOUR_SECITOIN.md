@@ -6,7 +6,9 @@ Mode: team
 Project / event: CS077 · Action 11B · Pilot Cat
 
 Team / learner: Gaterollin 
+
 Team Lead: Vinh
+
 Team members: Kevin, Luisa, Pascual, Roman, Vinh
 
 Coordinator: Pascual 
