@@ -13,6 +13,7 @@ Notes                       | Luisa    | In progress
 Notes                       | Pascual  | Done
 Notes                       | Roman    | In progress
 Notes                       | Vinh     | In progress
+Credits                     | Everyone | In progress
 Submit                      | Everyone | Done
 
 File structure for each individual:
