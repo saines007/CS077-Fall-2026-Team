@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the completed **Action 11B** assignment for `Classes11B_Luisa`. It demonstrates core C# object-oriented programming concepts in Unity by linking a custom 3D character (`PlayerMover.cs`) to an interactive environmental object (`StoryBeacon.cs`).
+This repository contains the completed **Action 11B** assignment for Week 11. It demonstrates core C# object-oriented programming concepts in Unity by linking a custom 3D character (`PlayerMover.cs`) to an interactive environmental object (`StoryBeacon.cs`).
 
 ## Technical Features & Setup
 
