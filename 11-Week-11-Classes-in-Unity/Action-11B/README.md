@@ -3,17 +3,29 @@
 If you need help reference each others work:
 
 Task                        | Owner    | Status:
+
 Complete 11B (Individually) | Kevin    | In progress
+
 Complete 11B (Individually) | Luisa    | In progress
+
 Complete 11B (Individually) | Pascual  | In progress
+
 Complete 11B (Individually) | Roman    | In progress
+
 Complete 11B (Individually) | Vinh     | In progress
+
 Notes                       | Kevin    | In progress
+
 Notes                       | Luisa    | In progress
+
 Notes                       | Pascual  | Done
+
 Notes                       | Roman    | In progress
+
 Notes                       | Vinh     | In progress
+
 Credits                     | Everyone | In progress
+
 Submit                      | Everyone | Done
 
 File structure for each individual:
