@@ -146,7 +146,9 @@ Submit to this Action Record: Whiteboard photo, peer/Discord record, save/reset 
 
 The weekly package is graded after both Action 7A and Action 7B are accepted. These class records document the required in-person whiteboard, collaboration and build work, subject to the syllabus, approved arrangements and applicable accommodations.
 
-Completed: All requirements in one package can be found here: https://github.com/saines007/CS077-Fall-2026-Team/blob/main/07-Week-07-Grabber-2.0/evidence/CS077_WEEK_07_GRABBER_2.0_R1-R6.pdf
+Completed: All requirements in one package can be found here: 
+
+https://github.com/saines007/CS077-Fall-2026-Team/blob/main/07-Week-07-Grabber-2.0/evidence/CS077_WEEK_07_GRABBER_2.0_R1-R6.pdf
 ==============================================================================
 
 DTG 112140UOCT26
