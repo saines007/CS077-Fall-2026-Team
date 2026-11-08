@@ -133,6 +133,21 @@ A future improvement would be to use a try/finally block so the application wind
 Expected result: Clicking the screenshot button produces a PNG image without the application's window visible, and the application returns to the foreground afterward.
 
 ==============================================================================
+Action Record 7B: Save and Clear
+Complete in class: Day 2 / Action 7B
+
+Build: Add Save and Clear, handle success/cancel/error routes, complete one bounded AI check and prepare the project for packaging.
+
+Whiteboard: Save, Cancel, Clear, Error and Repeat Capture decision routes.
+
+Collaborate: A peer runs the test route and checks the README steps. Record one concise Discord result and revision.
+
+Submit to this Action Record: Whiteboard photo, peer/Discord record, save/reset screenshots, AI record and the 7B Git checkpoint.
+
+The weekly package is graded after both Action 7A and Action 7B are accepted. These class records document the required in-person whiteboard, collaboration and build work, subject to the syllabus, approved arrangements and applicable accommodations.
+
+Completed: All requirements in one package can be found here: https://github.com/saines007/CS077-Fall-2026-Team/blob/main/07-Week-07-Grabber-2.0/evidence/CS077_WEEK_07_GRABBER_2.0_R1-R6.pdf
+==============================================================================
 
 DTG 112140UOCT26
 
