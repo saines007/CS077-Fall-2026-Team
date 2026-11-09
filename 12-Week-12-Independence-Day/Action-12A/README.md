@@ -179,24 +179,24 @@ Asset Organization
 
 Proposed project organization:
 
-PilotCat/
-  ├── Assets/
-    ├── Scenes/
+📁PilotCat/
+  ├── 📁Assets/
+    ├── 📁Scenes/
       └── MainScene
-    ├── Scripts/
+    ├── 📁Scripts/
       ├── PlayerController.cs
       ├── AircraftController.cs
       └── GameManager.cs
-    ├── Models/
+    ├── 📁Models/
       ├── PilotCat
       └── Aircraft
-    ├── Materials/
-    ├── Textures/
-    ├── Prefabs/
-    ├── Audio/
-    └── UI/
-  ├── Packages/
-  ├── ProjectSettings/
+    ├── 📁Materials/
+    ├── 📁Textures/
+    ├── 📁Prefabs/
+    ├── 📁Audio/
+    └── 📁UI/
+  ├── 📁Packages/
+  ├── 📁ProjectSettings/
 └── README.md
 
 Tasks / Owners
