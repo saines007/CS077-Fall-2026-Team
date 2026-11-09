@@ -150,7 +150,6 @@ Task	Owner	Responsibility
 Story development	All members	Develop the original Pilot Cat story
 Team leadership	Vinh	Guide group decisions
 Coordination	Pascual	Organize tasks and communication
-Story contributions	Kevin	Participate in brainstorming
 Story contributions	Luisa	Participate in brainstorming
 Story contributions	Roman	Participate in brainstorming
 
@@ -469,7 +468,7 @@ Project / Event: CS077 · Action 11B · Pilot Cat
 Team: Gaterollin
 Team Lead: Vinh
 Coordinator: Pascual
-Team Members: Kevin, Luisa, Pascual, Roman, Vinh
+Team Members: Luisa, Pascual, Roman, Vinh
 Return: 12:00 P.M.
 
 Purpose
