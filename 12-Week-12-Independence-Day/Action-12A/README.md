@@ -179,29 +179,25 @@ Asset Organization
 
 Proposed project organization:
 
-text
 PilotCat/
-├── Assets/
-│   ├── Scenes/
-│   │   └── MainScene
-│   ├── Scripts/
-│   │   ├── PlayerController.cs
-│   │   ├── AircraftController.cs
-│   │   └── GameManager.cs
-│   ├── Models/
-│   │   ├── PilotCat
-│   │   └── Aircraft
-│   ├── Materials/
-│   ├── Textures/
-│   ├── Prefabs/
-│   ├── Audio/
-│   └── UI/
-├── Packages/
-├── ProjectSettings/
+  ├── Assets/
+    ├── Scenes/
+      └── MainScene
+    ├── Scripts/
+      ├── PlayerController.cs
+      ├── AircraftController.cs
+      └── GameManager.cs
+    ├── Models/
+      ├── PilotCat
+      └── Aircraft
+    ├── Materials/
+    ├── Textures/
+    ├── Prefabs/
+    ├── Audio/
+    └── UI/
+  ├── Packages/
+  ├── ProjectSettings/
 └── README.md
-
-
-This is the proposed organization. Confirm actual filenames and folders against the submitted Unity project.
 
 Tasks / Owners
 Task	Owner	Responsibility
