@@ -84,6 +84,7 @@ Team Lead: Vinh
 Coordinator: Pascual
 
 Task	Owner	Description / Focus	Status
+
 R1	Team	Original Pilot Cat story, character, and player concept	Started in 11B
 
 R2 ★	Team	Attention First reading and named production Pipelines	In Progress
