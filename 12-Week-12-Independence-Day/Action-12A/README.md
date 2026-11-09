@@ -3,13 +3,21 @@
 CS077 — Action 12A: Independence Day (30 Points)
 
 Project: Pilot Cat
+
 Team: Gaterollin
+
 Team Lead: Vinh
+
 Coordinator: Pascual
+
 Team Members: Kevin, Luisa, Pascual, Roman, Vinh
+
 Engine: Unity
+
 Project Type: Original 3D Game / Story-Driven Game Development
+
 Assignment: Independence Day — Complete Production Pipeline
+
 Due Date: Monday, November 9, 2026 at 12:35 PM Pacific
 
 An original, 1930s-inspired adventure game about a criminal cat pilot smuggling Cat Nip across the Catlantic while escaping the International Cat Police.
