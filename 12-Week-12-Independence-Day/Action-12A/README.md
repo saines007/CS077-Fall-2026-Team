@@ -20,7 +20,7 @@ Assignment: Independence Day — Complete Production Pipeline
 
 Due Date: Monday, November 9, 2026 at 12:35 PM Pacific
 
-An original game about a criminal cat pilot smuggling Cat Nip across Catlandia while escaping Dog Police.
+An original game about a criminal cat pilot smuggling Cat Nip across Catlandia while escaping Watch Dogs Order.
 
 Pilot Cat is an original story created by the Gateroller team during Action 11B. Rather than continuing the existing VOID RUNNERS concept, the team decided to develop its own original world, character, and storyline through a collaborative 10-minute brainstorming and whiteboard session.
 
@@ -41,13 +41,10 @@ His precious Cat Nip.
 
 Pilot Cat must navigate his world while avoiding the authorities and continuing his adventures as an infamous feline pilot.
 
-As Pilot Cat always says:
-
-"Meow!"
 
 The Game Concept
 
-Pilot Cat is an original game concept built around a humorous criminal-cat backstory, an aviation theme, and a fictional world inspired by the 1930s.
+Pilot Cat is an original game concept built around a humorous criminal-cat backstory and aviation theme
 
 The game will translate the original whiteboard story into an interactive experience using Unity.
 
@@ -55,22 +52,24 @@ Main Character
 
 Duke the Pilot Cat
 
-Was under the tutelage of the mythical ace "Trigger" from Strangereal 
 A criminal cat from Catlandia.
-A notorious international Cat Nip dealer.
+Was under the tutelage of the mythical ace "Trigger" from Strangereal, by request of Rose
 An experienced pilot who travels across the Catlandia.
+A notorious international Cat Nip dealer.
 A character who values sleeping, flying, and Cat Nip.
-Constantly pursued by the Watch Dogs.
+Originally an orphan, Duke works to also support orphanages through anonymous charity accounts, a role model to the youth he supports.
+Constantly pursued by the Watch Dogs order.
 Game World
 Location / Element	Description
 Catlandia: Duke the Pilot Cat's home continent
 Settaria:	The fictional world where the story takes place
-Watch Dogs	The authorities hunting 
+Watch Dogs: The authorities hunting 
 Viridescent Claw: Duke's primary method of transportation
-Cat Nip	The valuable product at the center of the story
-Intended Player Experience
+Cat Nip:	The valuable product at the center of the story
 
-The player experiences the world through 's perspective.
+Intended Player Experience:
+
+The player experiences the world through Duke's perspective.
 
 The goal is to bring the original character and storyline to life through an interactive Unity project. The player should be able to understand the character, explore the environment, and experience the central premise of the story.
 
