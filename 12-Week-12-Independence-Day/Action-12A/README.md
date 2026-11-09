@@ -53,25 +53,24 @@ The game will translate the original whiteboard story into an interactive experi
 
 Main Character
 
-Pilot Cat
+Duke the Pilot Cat
 
+Was under the tutelage of the mythical ace "Trigger" from Strangereal 
 A criminal cat from Catlandia.
 A notorious international Cat Nip dealer.
 An experienced pilot who travels across the Catlandia.
 A character who values sleeping, flying, and Cat Nip.
-Constantly pursued by the International Cat Police.
+Constantly pursued by the Watch Dogs.
 Game World
 Location / Element	Description
 Catlandia: Duke the Pilot Cat's home continent
-Cat World	The fictional world where the story takes place
-Catlantic	The ocean Pilot Cat flies across
-Catmerica	The destination for his Cat Nip smuggling operations
-International Cat Police	The authorities hunting Pilot Cat
-Aircraft	Pilot Cat's primary method of transportation
+Settaria:	The fictional world where the story takes place
+Watch Dogs	The authorities hunting 
+Viridescent Claw: Duke's primary method of transportation
 Cat Nip	The valuable product at the center of the story
 Intended Player Experience
 
-The player experiences the world through Pilot Cat's perspective.
+The player experiences the world through 's perspective.
 
 The goal is to bring the original character and storyline to life through an interactive Unity project. The player should be able to understand the character, explore the environment, and experience the central premise of the story.
 
@@ -85,7 +84,7 @@ Coordinator: Pascual
 
 Task	Owner	Description / Focus	Status
 
-R1	Team	Original Pilot Cat story, character, and player concept	Started in 11B
+R1	Team	Original  story, character, and player concept	Started in 11B
 
 R2 ★	Team	Attention First reading and named production Pipelines	In Progress
 
@@ -136,7 +135,7 @@ Player Goal: Bring Pilot Cat's story to life through an interactive game, allowi
 
 Actions and Data
 Player Action	Required Data / Object	Purpose
-Move	Player position and movement input	Controls Pilot Cat
+Move Player position and movement input	Controls Pilot Cat
 Fly	Aircraft and movement state	Allows aerial movement
 Navigate	Position and environment	Moves through Cat World
 Avoid authorities	Police objects and player state	Supports the central conflict
