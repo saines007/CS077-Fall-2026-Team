@@ -305,18 +305,17 @@ Pipeline Connection: The completed project and documentation become the final su
 
 Action 12A requires completing all nine videos and performing the demonstrated work. Unity is the selected engine, so the team must complete the Unity workflows rather than simply describe them.
 
-Video	Required Focus	Application to Pilot Cat	Evidence to Keep
-1	Game Development Introduction	Introduce Pilot Cat and explain the player's goal and original story.	Game introduction and story notes
-2	Game Development Mindset	Explain how Gaterollin plans, investigates, builds, tests, and communicates.	Development plan and team notes
-3	Folders and Project Creation	Create or organize the Unity project, documentation, and evidence folders. Save a Git checkpoint.	Project folder screenshot and commit
-4	Documentation	Develop the Game Design Document containing the backstory, player, goal, actions, data, and intended result.	Pilot Cat GDD
-5	Introduction to Unity	Complete the Unity editor and project setup. Explain the scene and GameObject structure.	Unity editor screenshot
-6	Import a Custom Player	Import Pilot Cat or a suitable player stand-in. Explain the asset source and setup.	Player asset and Inspector screenshot
-7	Blender 3D	Complete the demonstrated 3D asset workflow or document and test an equivalent workflow.	Blender or equivalent workflow evidence
-8	Add Textures	Apply materials and textures to the game assets. Record asset sources.	Textured model screenshots
-9	Final Code	Complete and explain the tutorial behavior, test the player's visible result, and document errors honestly.	C# scripts and Play Mode evidence
+1. Introduce Pilot Cat and explain the player's goal and original story.	Game introduction and story notes
+2. Explain how Gaterollin plans, investigates, builds, tests, and communicates.	Development plan and team notes
+3. Create/organize the Unity project, documentation, and evidence folders. Save a Git checkpoint.	Project folder screenshot and commit
+4. Develop the Game Design Document containing the backstory, player, goal, actions, data, and intended result.	Pilot Cat GDD
+5. Complete the Unity editor and project setup. Explain the scene and GameObject structure.	Unity editor screenshot
+6. Import Pilot Cat or a suitable player stand-in. Explain the asset source and setup.	Player asset and Inspector screenshot
+7. Blender 3D	Complete the demonstrated 3D asset workflow or document and test an equivalent workflow.	Blender or equivalent workflow evidence
+8. Apply materials and textures to the game assets. Record asset sources.	Textured model screenshots
+9. Complete and explain the tutorial behavior, test the player's visible result, and document errors honestly.	C# scripts and Play Mode evidence
 
-Video Playlist: [Open the complete mini-pipeline playlist through the Action 12A assignment materials.]
+Video Playlist: https://youtube.com/playlist?list=PLsvXBxgtEE5lDk-5MnIiW96hFe_O1VIwd&si=PnREtZW8kdQV9RM9
 
 📝 Video Investigation and Learning Records
 
@@ -425,22 +424,18 @@ An object's behavior reads data and responds to an input or lifecycle event. A p
 
 The team must verify that any AI-generated technical explanation matches the actual code and Unity behavior.
 
-🧠 Whole-Project Individual Explanation / 30 Points
-
 Every learner must clearly explain the complete project, including work contributed by other team members.
 
 A team lead cannot speak for everyone.
 
 The instructor may ask learners to open the actual Unity project and demonstrate their understanding.
 
-Communication Category	Points	What to Demonstrate
-Purpose and Plan	8	Explain Pilot Cat's backstory, player goal, project plan, and choice of Unity
-Technical Understanding	8	Open Unity and explain folders, scenes, GameObjects, components, actions, data, and C#
-Evidence and Questions	8	Explain what was attempted, what happened, why, and what should be tested next
-Whole-Project Handoff	6	Explain all nine videos, team contributions, current status, and next-class plan
-Total	30	Complete individual project explanation
+Explain Pilot Cat's backstory, player goal, project plan, and choice of Unity
+Open Unity and explain folders, scenes, GameObjects, components, actions, data, and C#
+Explain what was attempted, what happened, why, and what should be tested next
+Explain all nine videos, team contributions, current status, and next-class plan
+Complete individual project explanation
 Individual Teach-Back Checklist
-Explain why the team created Pilot Cat instead of continuing VOID RUNNERS.
 Explain the complete backstory.
 Identify the player and the player's goal.
 Explain the named production Pipelines.
@@ -455,8 +450,6 @@ Demonstrate implemented behavior.
 Explain testing and evidence.
 Explain the contributions of every team member.
 Explain the next-class plan.
-Demonstrate the personal GitHub handoff.
-🧪 Original Story Development Evidence / Action 11B
 
 The original Pilot Cat concept was developed during Action 11B through a collaborative whiteboard session.
 
@@ -476,8 +469,6 @@ The team needed to understand the three pipelines: important information, the be
 
 During the whiteboard session, the team focused on the storytelling process. The 10-minute time constraint encouraged the members to work efficiently and generate ideas quickly.
 
-What Happened
-
 The team voted for Vinh to become the group lead and then collaborated on developing an original story.
 
 Instead of continuing VOID RUNNERS, the group decided to create Pilot Cat.
@@ -490,13 +481,12 @@ Whiteboard Story
 
 Storytelling Participants: Luisa, Pascual, Roman, Vinh.
 
-Pilot Cat is a criminal cat from Catlandia. He has been on the run for years and is the number one Cat Nip dealer in the world.
+Pilot Cat is a criminal cat from Catlandia. He has been on the run for years and is the number one Cat Nip dealer in this world.
 
-He has been flying over the Catlantic for years, smuggling Cat Nip into Catmerica. His lifestyle is illegal, and he is currently being hunted by the International Cat Police.
+He has been flying over for years, smuggling illicit Cat Nip. He is currently being hunted by the Watch Dogs order.
 
 Pilot Cat loves to sleep, fly, and his precious Cat Nip.
 
-As Pilot Cat always says, "Meow!"
 
 Original Action 11B Evidence
 Whiteboard and Evidence
@@ -624,7 +614,7 @@ Evidence	Every learner	Capture personal screenshots and notes	Verify evidence is
 GitHub handoff	Every learner	Commit and push personal work	Test repository access
 Final explanation	Every learner	Prepare whole-project teach-back	Explain the actual project
 Next Improvements
-Develop Pilot Cat's personality and character details.
+Develop Duke the Pilot Cat's personality and character details.
 Expand the fictional Cat World.
 Establish the playable environment.
 Develop the aircraft and player behavior.
