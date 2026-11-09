@@ -4,7 +4,7 @@ CS077 — Action 12A: Independence Day (30 Points)
 
 Project: Pilot Cat
 
-Team: Gaterollin
+Team: Gateroller
 
 Team Lead: Vinh
 
@@ -20,16 +20,16 @@ Assignment: Independence Day — Complete Production Pipeline
 
 Due Date: Monday, November 9, 2026 at 12:35 PM Pacific
 
-An original, 1930s-inspired adventure game about a criminal cat pilot smuggling Cat Nip across the Catlantic while escaping the International Cat Police.
+An original game about a criminal cat pilot smuggling Cat Nip across Catlandia while escaping Dog Police.
 
-Pilot Cat is an original story created by the Gaterollin team during Action 11B. Rather than continuing the existing VOID RUNNERS concept, the team decided to develop its own original world, character, and storyline through a collaborative 10-minute brainstorming and whiteboard session.
+Pilot Cat is an original story created by the Gateroller team during Action 11B. Rather than continuing the existing VOID RUNNERS concept, the team decided to develop its own original world, character, and storyline through a collaborative 10-minute brainstorming and whiteboard session.
 
 This Action 12A project continues that original concept by developing the story into a playable Unity experience. The objective is to complete the production pipeline, document all nine required tutorial videos, demonstrate technical understanding, test the project, and prepare an individual GitHub handoff.
 
 🐾 Game Overview & Features
 The Story
 
-Pilot Cat is a 1930s-era criminal cat from Catlumbia who has spent years flying over the Catlantic and smuggling Cat Nip into Catmerica.
+An original game about a criminal cat pilot smuggling Cat Nip across Catlandia while escaping Dog Police.
 
 He is one of the most notorious Cat Nip dealers in the world. His criminal lifestyle has made him a target of the International Cat Police, who are constantly hunting him down.
 
@@ -55,14 +55,14 @@ Main Character
 
 Pilot Cat
 
-A criminal cat from Catlumbia.
+A criminal cat from Catlandia.
 A notorious international Cat Nip dealer.
-An experienced pilot who travels across the Catlantic.
+An experienced pilot who travels across the Catlandia.
 A character who values sleeping, flying, and Cat Nip.
 Constantly pursued by the International Cat Police.
 Game World
 Location / Element	Description
-Catlumbia	Pilot Cat's home country
+Catlandia: Duke the Pilot Cat's home continent
 Cat World	The fictional world where the story takes place
 Catlantic	The ocean Pilot Cat flies across
 Catmerica	The destination for his Cat Nip smuggling operations
@@ -90,8 +90,6 @@ R1	Team	Original Pilot Cat story, character, and player concept	Started in 11B
 R2 ★	Team	Attention First reading and named production Pipelines	In Progress
 
 R3	Team	Complete nine videos and corresponding engine work	In Progress
-
-R4	Kevin	Story development, brainstorming, and documentation contribution	11B Contribution
 
 R4	Luisa	Story development, brainstorming, and documentation contribution	11B Contribution
 
