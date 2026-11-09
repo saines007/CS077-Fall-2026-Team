@@ -4,32 +4,32 @@ CS077 — Action 12A: Independence Day (30 Points)
 
 Project: Pilot Cat
 
-Team: Gaterollin
+Team: Gateroller
 
 Team Lead: Vinh
 
 Coordinator: Pascual
 
-Team Members: Kevin, Luisa, Pascual, Roman, Vinh
+Team Members: Luisa, Pascual, Roman, Vinh
 
 Engine: Unity
 
-Project Type: Original 3D Game / Story-Driven Game Development
+Project Type: Original Side Scroller Game / Story-Driven Game Development
 
 Assignment: Independence Day — Complete Production Pipeline
 
 Due Date: Monday, November 9, 2026 at 12:35 PM Pacific
 
-An original, 1930s-inspired adventure game about a criminal cat pilot smuggling Cat Nip across the Catlantic while escaping the International Cat Police.
+An original game about a criminal cat pilot smuggling Cat Nip across Catlandia while escaping Dog Police.
 
-Pilot Cat is an original story created by the Gaterollin team during Action 11B. Rather than continuing the existing VOID RUNNERS concept, the team decided to develop its own original world, character, and storyline through a collaborative 10-minute brainstorming and whiteboard session.
+Pilot Cat is an original story created by the Gateroller team during Action 11B. Rather than continuing the existing VOID RUNNERS concept, the team decided to develop its own original world, character, and storyline through a collaborative 10-minute brainstorming and whiteboard session.
 
 This Action 12A project continues that original concept by developing the story into a playable Unity experience. The objective is to complete the production pipeline, document all nine required tutorial videos, demonstrate technical understanding, test the project, and prepare an individual GitHub handoff.
 
 🐾 Game Overview & Features
 The Story
 
-Pilot Cat is a 1930s-era criminal cat from Catlumbia who has spent years flying over the Catlantic and smuggling Cat Nip into Catmerica.
+An original game about a criminal cat pilot smuggling Cat Nip across Catlandia while escaping Dog Police.
 
 He is one of the most notorious Cat Nip dealers in the world. His criminal lifestyle has made him a target of the International Cat Police, who are constantly hunting him down.
 
@@ -55,14 +55,14 @@ Main Character
 
 Pilot Cat
 
-A criminal cat from Catlumbia.
+A criminal cat from Catlandia.
 A notorious international Cat Nip dealer.
-An experienced pilot who travels across the Catlantic.
+An experienced pilot who travels across the Catlandia.
 A character who values sleeping, flying, and Cat Nip.
 Constantly pursued by the International Cat Police.
 Game World
 Location / Element	Description
-Catlumbia	Pilot Cat's home country
+Catlandia: Duke the Pilot Cat's home continent
 Cat World	The fictional world where the story takes place
 Catlantic	The ocean Pilot Cat flies across
 Catmerica	The destination for his Cat Nip smuggling operations
@@ -91,8 +91,6 @@ R2 ★	Team	Attention First reading and named production Pipelines	In Progress
 
 R3	Team	Complete nine videos and corresponding engine work	In Progress
 
-R4	Kevin	Story development, brainstorming, and documentation contribution	11B Contribution
-
 R4	Luisa	Story development, brainstorming, and documentation contribution	11B Contribution
 
 R4	Pascual	Coordination, whiteboard contributions, and team organization	11B Contribution
@@ -120,7 +118,7 @@ Goal: Establish the original game story, player identity, backstory, and intende
 Input:
 
 Action 11B Attention Accord.
-Original Gaterollin brainstorming session.
+Original Gateroller brainstorming session.
 Team whiteboard.
 Discord communication.
 Original VOID RUNNERS alternative.
@@ -130,7 +128,7 @@ The team originally considered continuing the VOID RUNNERS concept. However, dur
 
 The result was Pilot Cat.
 
-Pilot Cat is a 1930s-era criminal cat from Catlumbia. He has spent years flying across the Catlantic, smuggling Cat Nip into Catmerica. His actions have attracted the attention of the International Cat Police, making him one of the most wanted cats in Cat World.
+Pilot Cat is a criminal cat from Catlandia. He has spent years flying across the Catlantic, smuggling Cat Nip into Catmerica. His actions have attracted the attention of the International Cat Police, making him one of the most wanted cats in Cat World.
 
 The player takes the role of Pilot Cat and experiences his adventures as he navigates the fictional world.
 
@@ -152,7 +150,6 @@ Task	Owner	Responsibility
 Story development	All members	Develop the original Pilot Cat story
 Team leadership	Vinh	Guide group decisions
 Coordination	Pascual	Organize tasks and communication
-Story contributions	Kevin	Participate in brainstorming
 Story contributions	Luisa	Participate in brainstorming
 Story contributions	Roman	Participate in brainstorming
 
@@ -471,7 +468,7 @@ Project / Event: CS077 · Action 11B · Pilot Cat
 Team: Gaterollin
 Team Lead: Vinh
 Coordinator: Pascual
-Team Members: Kevin, Luisa, Pascual, Roman, Vinh
+Team Members: Luisa, Pascual, Roman, Vinh
 Return: 12:00 P.M.
 
 Purpose
@@ -492,9 +489,9 @@ Pascual assisted by recording ideas and helping develop the backstory.
 
 Whiteboard Story
 
-Storytelling Participants: Kevin, Luisa, Pascual, Roman, Vinh.
+Storytelling Participants: Luisa, Pascual, Roman, Vinh.
 
-Pilot Cat is a 1930s-era criminal cat from Catlumbia. He has been on the run for years and is the number one Cat Nip dealer in the world.
+Pilot Cat is a criminal cat from Catlandia. He has been on the run for years and is the number one Cat Nip dealer in the world.
 
 He has been flying over the Catlantic for years, smuggling Cat Nip into Catmerica. His lifestyle is illegal, and he is currently being hunted by the International Cat Police.
 
@@ -564,7 +561,7 @@ Maintain team communication and individual contribution records.
 
 Team Lead: Vinh
 Coordinator: Pascual
-Team Members: Kevin, Luisa, Pascual, Roman, Vinh.
+Team Members: Luisa, Pascual, Roman, Vinh.
 
 Keep concise Discord communications, peer feedback, task ownership, and development decisions.
 
@@ -632,7 +629,7 @@ Develop Pilot Cat's personality and character details.
 Expand the fictional Cat World.
 Establish the playable environment.
 Develop the aircraft and player behavior.
-Introduce the International Cat Police as a game element.
+Introduce the Watch Dogs as a game element.
 Improve the visual presentation with appropriate 3D assets and textures.
 Test implemented player interactions.
 Ensure every team member can explain the entire project.
@@ -684,12 +681,12 @@ Checked the Canvas submission confirmation.
 
 Pilot Cat was created through the collaborative efforts of the Gaterollin team: Kevin, Luisa, Pascual, Roman, and Vinh.
 
-The original story was developed during Action 11B through brainstorming, whiteboard collaboration, and team discussion. The group chose to move away from VOID RUNNERS and create an original character and fictional world.
+The original story was developed during Action 11B and 12A through brainstorming, whiteboard collaboration, and team discussion. The group chose to move away from VOID RUNNERS and create an original character and fictional world.
 
 AI tools may be used as supplementary assistance for understanding C# concepts, explaining Unity behavior, organizing documentation, and checking technical explanations. Any AI-generated technical claims must be checked against official documentation and tested in the actual project.
 
 All team members remain responsible for understanding, explaining, testing, and documenting the complete project.
 
-Pilot Cat — A Gaterollin Original.
+Pilot Cat — A Gateroller Original.
 
 "Meow!" 🐈✈️
