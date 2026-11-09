@@ -10,11 +10,11 @@ Team Lead: Vinh
 
 Coordinator: Pascual
 
-Team Members: Kevin, Luisa, Pascual, Roman, Vinh
+Team Members: Luisa, Pascual, Roman, Vinh
 
 Engine: Unity
 
-Project Type: Original 3D Game / Story-Driven Game Development
+Project Type: Original Side Scroller Game / Story-Driven Game Development
 
 Assignment: Independence Day — Complete Production Pipeline
 
