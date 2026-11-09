@@ -85,14 +85,23 @@ Coordinator: Pascual
 
 Task	Owner	Description / Focus	Status
 R1	Team	Original Pilot Cat story, character, and player concept	Started in 11B
+
 R2 ★	Team	Attention First reading and named production Pipelines	In Progress
+
 R3	Team	Complete nine videos and corresponding engine work	In Progress
+
 R4	Kevin	Story development, brainstorming, and documentation contribution	11B Contribution
+
 R4	Luisa	Story development, brainstorming, and documentation contribution	11B Contribution
+
 R4	Pascual	Coordination, whiteboard contributions, and team organization	11B Contribution
+
 R4	Roman	Story documentation and evidence contribution	11B Contribution
+
 R4	Vinh	Team leadership and story development	11B Contribution
+
 R5	Every Learner	Individual explanation, AI verification, and next-class plan	Required
+
 R6 ★	Every Learner	Personal GitHub repository, evidence, commits, and submission	Required
 
 Team Participation Requirement: Every member must understand and explain all nine tutorial videos, the story, the Unity project, the assets, the behavior, and the final testing process. Individual contributions do not replace individual understanding.
