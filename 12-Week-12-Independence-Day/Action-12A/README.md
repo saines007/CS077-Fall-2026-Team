@@ -118,7 +118,7 @@ Goal: Establish the original game story, player identity, backstory, and intende
 Input:
 
 Action 11B Attention Accord.
-Original Gaterollin brainstorming session.
+Original Gateroller brainstorming session.
 Team whiteboard.
 Discord communication.
 Original VOID RUNNERS alternative.
@@ -490,9 +490,9 @@ Pascual assisted by recording ideas and helping develop the backstory.
 
 Whiteboard Story
 
-Storytelling Participants: Kevin, Luisa, Pascual, Roman, Vinh.
+Storytelling Participants: Luisa, Pascual, Roman, Vinh.
 
-Pilot Cat is a 1930s-era criminal cat from Catlumbia. He has been on the run for years and is the number one Cat Nip dealer in the world.
+Pilot Cat is a criminal cat from Catlandia. He has been on the run for years and is the number one Cat Nip dealer in the world.
 
 He has been flying over the Catlantic for years, smuggling Cat Nip into Catmerica. His lifestyle is illegal, and he is currently being hunted by the International Cat Police.
 
@@ -562,7 +562,7 @@ Maintain team communication and individual contribution records.
 
 Team Lead: Vinh
 Coordinator: Pascual
-Team Members: Kevin, Luisa, Pascual, Roman, Vinh.
+Team Members: Luisa, Pascual, Roman, Vinh.
 
 Keep concise Discord communications, peer feedback, task ownership, and development decisions.
 
@@ -630,7 +630,7 @@ Develop Pilot Cat's personality and character details.
 Expand the fictional Cat World.
 Establish the playable environment.
 Develop the aircraft and player behavior.
-Introduce the International Cat Police as a game element.
+Introduce the Watch Dogs as a game element.
 Improve the visual presentation with appropriate 3D assets and textures.
 Test implemented player interactions.
 Ensure every team member can explain the entire project.
@@ -682,12 +682,12 @@ Checked the Canvas submission confirmation.
 
 Pilot Cat was created through the collaborative efforts of the Gaterollin team: Kevin, Luisa, Pascual, Roman, and Vinh.
 
-The original story was developed during Action 11B through brainstorming, whiteboard collaboration, and team discussion. The group chose to move away from VOID RUNNERS and create an original character and fictional world.
+The original story was developed during Action 11B and 12A through brainstorming, whiteboard collaboration, and team discussion. The group chose to move away from VOID RUNNERS and create an original character and fictional world.
 
 AI tools may be used as supplementary assistance for understanding C# concepts, explaining Unity behavior, organizing documentation, and checking technical explanations. Any AI-generated technical claims must be checked against official documentation and tested in the actual project.
 
 All team members remain responsible for understanding, explaining, testing, and documenting the complete project.
 
-Pilot Cat — A Gaterollin Original.
+Pilot Cat — A Gateroller Original.
 
 "Meow!" 🐈✈️
