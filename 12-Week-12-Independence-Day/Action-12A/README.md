@@ -128,7 +128,7 @@ The team originally considered continuing the VOID RUNNERS concept. However, dur
 
 The result was Pilot Cat.
 
-Pilot Cat is a 1930s-era criminal cat from Catlumbia. He has spent years flying across the Catlantic, smuggling Cat Nip into Catmerica. His actions have attracted the attention of the International Cat Police, making him one of the most wanted cats in Cat World.
+Pilot Cat is a criminal cat from Catlandia. He has spent years flying across the Catlantic, smuggling Cat Nip into Catmerica. His actions have attracted the attention of the International Cat Police, making him one of the most wanted cats in Cat World.
 
 The player takes the role of Pilot Cat and experiences his adventures as he navigates the fictional world.
 
