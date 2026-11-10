@@ -30,7 +30,7 @@ Promised evidence: Completed Pilot Cat Game Design Document (GDD), three Pipelin
 
 Team use: Everyone — Kevin, Luisa, Pascual, Roman, and Vinh
 
-What happened: 
+What happened: [NEED TO COMPLETE]
 
 Evidence location: Evidence: https://github.com/saines007/CS077-Fall-2026-Team/tree/main/12-Week-12-Independence-Day/Action-12A/Evidence
 
@@ -38,9 +38,9 @@ Shared notes: https://github.com/saines007/CS077-Fall-2026-Team/tree/main/12-Wee
 
 Whiteboard/Discord: https://github.com/saines007/CS077-Fall-2026-Team/tree/main/12-Week-12-Independence-Day/Action-12A/Evidence
 
-Interpretation: 
+Interpretation: [NEED TO COMPLETE]
 
-Next test: 
+Next test: [NEED TO COMPLETE]
 
 
 ## Pascual
@@ -80,7 +80,7 @@ Promised evidence: Completed Pilot Cat Game Design Document (GDD), three Pipelin
 
 Team use: Everyone — Kevin, Luisa, Pascual, Roman, and Vinh
 
-What happened: 
+What happened: [NEED TO COMPLETE]
 
 Evidence location: Evidence: https://github.com/saines007/CS077-Fall-2026-Team/tree/main/12-Week-12-Independence-Day/Action-12A/Evidence
 
@@ -88,9 +88,9 @@ Shared notes: https://github.com/saines007/CS077-Fall-2026-Team/tree/main/12-Wee
 
 Whiteboard/Discord: https://github.com/saines007/CS077-Fall-2026-Team/tree/main/12-Week-12-Independence-Day/Action-12A/Evidence
 
-Interpretation: 
+Interpretation: [NEED TO COMPLETE]
 
-Next test: 
+Next test: [NEED TO COMPLETE]
 
 
 ## Vinh
@@ -105,13 +105,17 @@ Promised evidence: Completed Pilot Cat Game Design Document (GDD), three Pipelin
 
 Team use: Everyone — Kevin, Luisa, Pascual, Roman, and Vinh
 
-What happened: 
+What happened: [NEED TO COMPLETE]
 
-Evidence location: 
+Evidence location: Evidence: https://github.com/saines007/CS077-Fall-2026-Team/tree/main/12-Week-12-Independence-Day/Action-12A/Evidence
 
-Interpretation: 
+Shared notes: https://github.com/saines007/CS077-Fall-2026-Team/tree/main/12-Week-12-Independence-Day/Action-12A/Notes
 
-Next test: 
+Whiteboard/Discord: https://github.com/saines007/CS077-Fall-2026-Team/tree/main/12-Week-12-Independence-Day/Action-12A/Evidence
+
+Interpretation: [NEED TO COMPLETE]
+
+Next test: [NEED TO COMPLETE]
 
 
 ## Whiteboard
