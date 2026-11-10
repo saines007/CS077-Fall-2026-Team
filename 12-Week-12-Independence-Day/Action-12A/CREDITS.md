@@ -11,7 +11,7 @@ Microsoft PowerPoint – Presentation creation and visual planning.
 PDF – Document format used for reading, sharing, and referencing project materials.
 3D Modeling & Game Development
 Unity – Game engine used for project development and implementation.
-Blender – 3D modeling, asset creation, and other visual production tasks.
+Blender – 3D modeling, asset creation, and visual production.
 Artificial Intelligence & Assistance
 ChatGPT (OpenAI) – Used for brainstorming, explanations, troubleshooting, research assistance, and development guidance.
 Claude (Anthropic) – Used for writing assistance, brainstorming, problem-solving, and development support.
