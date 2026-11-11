@@ -12,7 +12,7 @@
 | FIGURE 1: DUKE PORTRAIT | FIGURE 2: SIDE-SCROLLER GAMEPLAY |
 | :---: | :---: |
 | <img width="169" height="168" alt="CS077_DUKE_PORTRAIT" src="https://github.com/user-attachments/assets/c88887f9-5d68-4862-a6c6-5f807d574e3f" /> | <img width="626" height="352" alt="CS077_SIDE_SCROLLER_GAMEPLAY" src="https://github.com/user-attachments/assets/99751aa2-2d7d-484a-a82c-98c7cb5dd158" /> |
-| **Duke "Pilot Cat"** *(Character Concept)* | **3D Side-Scroller Flight & Collectibles** |
+| **Duke "Pilot Cat"** *(Rogue Smuggler with a Heart of Gold)* | **3D Side-Scroller Flight & Collectibles** |
 
 ---
 
