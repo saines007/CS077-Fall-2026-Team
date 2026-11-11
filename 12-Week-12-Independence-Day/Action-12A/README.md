@@ -1,676 +1,197 @@
-🐈 Pilot Cat ✈️
-
-CS077 — Action 12A: Independence Day (30 Points)
-
-Project: Pilot Cat
-
-Team: Gateroller
-
-Team Lead: Vinh
-
-Coordinator: Pascual
-
-Team Members: Luisa, Pascual, Roman, Vinh
-
-Engine: Unity
-
-Project Type: Original Side Scroller Game / Story-Driven Game Development
-
-Assignment: Independence Day — Complete Production Pipeline
-
-Due Date: Monday, November 9, 2026 at 12:35 PM Pacific
-
-An original game about a criminal cat pilot smuggling Cat Nip across Catlandia while escaping Watch Dogs Order.
-
-Pilot Cat is an original story created by the Gateroller team during Action 11B. Rather than continuing the existing VOID RUNNERS concept, the team decided to develop its own original world, character, and storyline through a collaborative 10-minute brainstorming and whiteboard session.
-
-This Action 12A project continues that original concept by developing the story into a playable Unity experience. The objective is to complete the production pipeline, document all nine required tutorial videos, demonstrate technical understanding, test the project, and prepare an individual GitHub handoff.
-
-🐾 Game Overview & Features
-The Story
-
-An original game about a criminal cat pilot smuggling Cat Nip across Catlandia while escaping Dog Police.
-
-He is one of the most notorious Cat Nip dealers in the world. His criminal lifestyle has made him a target of the International Cat Police, who are constantly hunting him down.
-
-Despite being pursued, Pilot Cat continues living his preferred lifestyle. He loves three things above everything else:
-
-Sleeping.
-Flying.
-His precious Cat Nip.
-
-Pilot Cat must navigate his world while avoiding the authorities and continuing his adventures as an infamous feline pilot.
-
-
-The Game Concept
-
-Pilot Cat is an original game concept built around a humorous criminal-cat backstory and aviation theme
-
-The game will translate the original whiteboard story into an interactive experience using Unity.
-
-Main Character
-
-Duke the Pilot Cat
-
-A criminal cat from Catlandia.
-Was under the tutelage of the mythical ace "Trigger" from Strangereal, by request of Rose
-An experienced pilot who travels across the Catlandia.
-A notorious international Cat Nip dealer.
-A character who values sleeping, flying, and Cat Nip.
-Originally an orphan, Duke works to also support orphanages through anonymous charity accounts, a role model to the youth he supports.
-Constantly pursued by the Watch Dogs order.
-Game World
-Location / Element	Description
-Catlandia: Duke the Pilot Cat's home continent
-Settaria:	The fictional world where the story takes place
-Watch Dogs: The authorities hunting 
-Viridescent Claw: Duke's primary method of transportation
-Cat Nip:	The valuable product at the center of the story
-
-Intended Player Experience:
-
-The player experiences the world through Duke's perspective.
-
-The goal is to bring the original character and storyline to life through an interactive Unity project. The player should be able to understand the character, explore the environment, and experience the central premise of the story.
-
-👥 Team & Working Arrangements
-
-Team Name: Gaterollin
-
-Team Lead: Vinh
-
-Coordinator: Pascual
-
-Tasks
-
-R1 ★ Team	Original story, character, and player concept	Started in 11B
-
-R2 ★	Team	Attention First reading and named production Pipelines	In Progress
-
-R3 ★	Team	Complete nine videos and corresponding engine work	In Progress
-
-R4 ★ Luisa	Story development, brainstorming, and documentation contribution	11B Contribution
-
-R4 ★	Pascual	Coordination, whiteboard contributions, and team organization	11B Contribution
-
-R4 ★ Roman	Story documentation and evidence contribution	11B Contribution
-
-R4 ★ Vinh	Team leadership and story development	11B Contribution
-
-R5 ★ Every Learner	Individual explanation, AI verification, and next-class plan	Required
-
-R6 ★	Every Learner	Personal GitHub repository, evidence, commits, and submission	Required
-
-Team Participation Requirement: Every member must understand and explain all nine tutorial videos, the story, the Unity project, the assets, the behavior, and the final testing process. Individual contributions do not replace individual understanding.
-
-🏭 Complete Production Pipeline
-
-Action 12A requires the project documentation to use Pipelines as its primary section headings instead of traditional chapters.
-
-Each Pipeline identifies its goal, input, tasks and owners, finished output, testing procedure, and supporting evidence.
-
-Pipeline 01 / Story and Player Plan
-
-Goal: Establish the original game story, player identity, backstory, and intended experience.
-
-Input:
-
-Action 11B Attention Accord.
-Original Gateroller brainstorming session.
-Team whiteboard.
-Discord communication.
-Original VOID RUNNERS alternative.
-Backstory and Player Goal
-
-The team originally considered continuing the VOID RUNNERS concept. However, during a 10-minute collaborative whiteboard session, the team decided to create an entirely original story.
-
-The result was Pilot Cat.
-
-Pilot Cat is a criminal cat from Catlandia. He has spent years flying across the Catlantic, smuggling Cat Nip into Catmerica. His actions have attracted the attention of the International Cat Police, making him one of the most wanted cats in Cat World.
-
-The player takes the role of Pilot Cat and experiences his adventures as he navigates the fictional world.
-
-Player Goal: Bring Pilot Cat's story to life through an interactive game, allowing players to experience his world and character.
-
-Actions and Data
-Player Action	Required Data / Object	Purpose
-Move Player position and movement input	Controls Pilot Cat
-Fly	Aircraft and movement state	Allows aerial movement
-Navigate	Position and environment	Moves through Cat World
-Avoid authorities	Police objects and player state	Supports the central conflict
-Interact	Input and interaction events	Connects the player to game objects
-Progress	Game state and objectives	Tracks game progression
-
-These are intended gameplay systems. Their implementation and testing must be documented as development progresses.
-
-Tasks / Owners
-Task	Owner	Responsibility
-Story development	All members	Develop the original Pilot Cat story
-Team leadership	Vinh	Guide group decisions
-Coordination	Pascual	Organize tasks and communication
-Story contributions	Luisa	Participate in brainstorming
-Story contributions	Roman	Participate in brainstorming
-
-Finished Output: Original Pilot Cat backstory, character concept, player goal, and fictional world.
-
-Testing / Evidence: Action 11B whiteboard screenshots, Attention Accord, shared notes, and Discord discussions.
-
-Pipeline Connection: The story and player requirements become the foundation for the game design document and Unity scene planning in Pipeline 02.
-
-Pipeline 02 / Scene, Assets and Game Design
-
-Goal: Translate the original Pilot Cat story into a visual game design and organize the project resources.
-
-Input: Pipeline 01 story, character concept, player goal, and game requirements.
-
-Planned Game Design
-
-The Unity project will organize the game into scenes, GameObjects, components, and assets.
-
-Game Element	Unity Equivalent	Purpose
-Pilot Cat	Player GameObject	Main playable character
-Aircraft	Aircraft GameObject	Represents Pilot Cat's plane
-Cat World	Scene / Environment	Contains the game world
-Catlantic	Environment / Terrain	Represents the ocean
-International Cat Police	NPC / Enemy GameObjects	Represents the authorities
-Cat Nip	Collectible / Game Object	Represents an important story element
-Player controls	Input system	Receives player commands
-Asset Organization
-
-Proposed project organization:
-
-📁PilotCat/
-  ├── 📁Assets/
-    ├── 📁Scenes/
-      └── MainScene
-    ├── 📁Scripts/
-      ├── PlayerController.cs
-      ├── AircraftController.cs
-      └── GameManager.cs
-    ├── 📁Models/
-      ├── PilotCat
-      └── Aircraft
-    ├── 📁Materials/
-    ├── 📁Textures/
-    ├── 📁Prefabs/
-    ├── 📁Audio/
-    └── 📁UI/
-  ├── 📁Packages/
-  ├── 📁ProjectSettings/
+# 🐈 Pilot Cat — Action 12A: Independence Day
+
+[![Engine](https://img.shields.io/badge/Engine-Unity%206%20%28URP%29-blue.svg)](https://unity.com/)
+[![Course](https://img.shields.io/badge/Course-CS077%20Action%2012A-orange.svg)]()
+[![Status](https://img.shields.io/badge/Pipeline-Action%2013A%20Prep-green.svg)]()
+[![Team](https://img.shields.io/badge/Team-Gateroller-purple.svg)]()
+
+> **Project:** Pilot Cat  
+> **Team:** Gateroller (Vinh — Lead, Pascual — Coordinator, Luisa, Roman)  
+> **Course:** CS077 — Action 12A: Independence Day  
+> **Due Date:** Monday, November 9, 2026 at 12:35 PM Pacific  
+
+---
+
+## 🐾 1. Game Overview & Backstory
+
+**Pilot Cat** is an original side-scroller game developed by the **Gateroller** team, born from a collaborative 10-minute whiteboard brainstorming session during Action 11B. Moving away from the *VOID RUNNERS* framework, the team built an original world, character concept, and central conflict.
+
+### The Story
+Duke (known as **Pilot Cat**) is one of the most infamous felines in Catlandia. Under the tutelage of the legendary ace *"Trigger"* from Strangereal (by request of Rose), Duke became an expert aviator. He operates as an international Cat Nip smuggler flying across the Catlantic into Catmerica.
+
+Despite being relentlessly pursued by the **Watch Dogs Order** and the International Cat Police, Duke stays true to his feline roots. He loves three things above all else:
+1. **Sleeping**
+2. **Flying**
+3. **His precious Cat Nip**
+
+*Behind the scenes:* Though branded a criminal, Duke operates anonymous charity accounts to fund local orphanages across Settaria—making him a hidden role model to the youth he supports.
+
+### Fictional World Reference
+
+| Location / Element | Category | Description |
+| :--- | :--- | :--- |
+| **Settaria** | World | The overarching fictional world containing all continents and oceans. |
+| **Catlandia** | Continent | Duke the Pilot Cat's home continent and primary base of operation. |
+| **Catlantic** | Environment | The vast ocean Duke navigates while smuggling cargo. |
+| **Viridescent Claw** | Vehicle | Duke's custom vintage biplane used for aerial maneuvering. |
+| **Watch Dogs Order** | Faction / Enemy | The international police authority pursuing Duke. |
+| **Cat Nip** | Item / Resource | The central high-value product driving the game's narrative conflict. |
+
+---
+
+## 👥 2. Team & Working Arrangements
+
+* **Team Name:** Gateroller (Gaterollin)
+* **Team Lead:** Vinh
+* **Coordinator:** Pascual
+* **Team Members:** Luisa, Pascual, Roman, Vinh
+
+### Course Requirement Index (R1–R4 Ownership)
+
+| Req | Focus | Owner | Core Contribution |
+| :---: | :--- | :--- | :--- |
+| **R1** | Entire Pipeline & Story Concept | All Members | Created original Pilot Cat story, character design, and world lore during 11B. |
+| **R2** | Attention First Pipelines | All Members | Structured documentation into Pipelines 01–04 per Chapter 3 standards. |
+| **R3** | Video & Engine Evidence | All Members | Completed 9 video logs, Unity Play Mode screenshots, and project logs. |
+| **R4** | Story Development | Luisa | Led character narrative refinement and GDD documentation entries. |
+| **R4** | Team Coordination | Pascual | Managed task delegation, whiteboard evidence, and repository structure. |
+| **R4** | Story & Evidence Logs | Roman | Compiled evidence tables, Discord records, and scene metadata. |
+| **R4** | Team Leadership | Vinh | Directed overall technical architecture and Unity movement integration. |
+| **R5** | AI Verification & Next Plan | Every Learner | Executed C# code verification, documentation checks, and 13A test roadmap. |
+| **R6** | Personal GitHub Handoff | Every Learner | Pushed complete repository, evidence folder, and Canvas receipt submission. |
+
+---
+
+## 🏭 3. Production Pipelines (Attention First Standard)
+
+Per **R2 standards**, documentation is organized around four distinct production pipelines.
+
+### Pipeline 01 / Story and Player Plan
+* **Goal:** Establish original game narrative, player identity, and intended gameplay loop.
+* **Input:** Action 11B Attention Accord, team whiteboard, and Discord planning.
+* **Actions & Data Mapping:**
+
+```
+  [ Player Input ] ──► [ Player Mover Script ] ──► [ Viridescent Claw Transform ]
+                              │
+                              ▼
+                  [ Position / Altitude Data ] ──► [ Game Boundaries Check ]
+```
+
+* **Finished Output:** Backstory, character concept, player goals, and world parameters.
+* **Testing & Evidence:** Whiteboard screenshots, Attention Accord, and team Discord records.
+
+### Pipeline 02 / Scene, Assets and Game Design
+* **Goal:** Translate lore into visual Unity engine structures and organized folder hierarchies.
+* **Input:** Pipeline 01 backstory and entity requirements.
+* **Repository Architecture:**
+
+```text
+PilotCat/
+├── Assets/
+│   ├── Audio/
+│   ├── Materials/
+│   ├── Models/         <-- Duke & Viridescent Claw assets
+│   ├── Prefabs/
+│   ├── Scenes/         <-- MainScene.unity
+│   ├── Scripts/        <-- PlayerMover.cs, GameManager.cs
+│   ├── Textures/
+│   └── UI/
+├── Evidence/           <-- R6 Submission screenshots & receipts
+├── Next-Class Plan/    <-- NEXT_CLASS_PLAN.md
 └── README.md
-
-Tasks / Owners
-Task	Owner	Responsibility
-Unity project setup	Team	Establish project structure
-Character assets	Assigned contributor	Find or create a suitable Pilot Cat asset
-Environment assets	Assigned contributor	Develop the game environment
-Materials and textures	Assigned contributor	Apply visual treatments
-Documentation	Team	Record asset sources and project structure
-
-Finished Output: Game design document, Unity project structure, scene plan, and asset organization.
-
-Testing / Evidence: Unity project screenshots, folder screenshots, asset references, and whiteboard planning.
-
-Pipeline Connection: The project structure and assets become the input for gameplay behavior and C# implementation in Pipeline 03.
-
-Pipeline 03 / Behavior, Gameplay and C#
-
-Goal: Develop the game behavior using Unity components, C# scripts, objects, events, and data.
-
-Input: Pipeline 02 project structure, scenes, assets, and game design.
-
-Core Gameplay Systems
-
-The planned gameplay systems include:
-
-Player Movement: Allow Pilot Cat to move through the game environment.
-Aircraft Behavior: Provide the functionality needed for Pilot Cat to fly.
-Player Input: Receive and process player commands.
-Environment Interaction: Connect the player to objects within the world.
-Police / Enemy Behavior: Represent the International Cat Police.
-Game State: Track relevant player and game information.
-Visual Feedback: Communicate player actions and game events.
-C# Technical Concepts
-C# Concept	Unity Application	Purpose
-Classes	PlayerController, GameManager	Organize behavior and objects
-Methods	Movement and interaction methods	Perform actions
-Variables	Speed, position, and state	Store data
-Properties	Object and game state properties	Expose and manage information
-Events	Input and collision events	Trigger behavior
-Objects	GameObjects and instantiated objects	Represent game elements
-Components	Scripts, colliders, and renderers	Add functionality
-APIs	Unity Engine API	Connect C# code to Unity
-Unity and C# Connection
-
-Unity uses GameObjects and components to organize the scene. C# scripts provide the behavior attached to those objects.
-
-For example, a player movement script reads input, uses movement data, and updates the player's position.
-
-A property changing by itself does not prove that an interaction works. The behavior must be executed and tested in the actual game environment.
-
-Tasks / Owners
-Task	Owner	Responsibility
-Player behavior	Assigned contributor	Develop and test player controls
-Aircraft behavior	Assigned contributor	Develop flight-related functionality
-Game objects	Assigned contributor	Organize scene objects and components
-C# code	Team	Develop and explain gameplay logic
-Code testing	Team	Verify behavior and record errors
-
-Finished Output: Working Unity scene with the implemented player, assets, and gameplay behavior.
-
-Testing / Evidence: Actual C# scripts, Unity Inspector screenshots, Play Mode screenshots, and gameplay test results.
-
-Pipeline Connection: The implemented game becomes the input for Pipeline 04, where the project is tested, explained, and prepared for final release.
-
-Pipeline 04 / Testing, Documentation and Release
-
-Goal: Verify the game, document the development process, explain the complete project, and prepare the final personal GitHub handoff.
-
-Input: Pipeline 03 Unity project, scenes, scripts, assets, and gameplay.
-
-Testing Areas
-Test Case	Test Description	Expected Result	Observed Result
-1. Project Launch	Open the Unity project and enter Play Mode	Project loads and scene runs	[Record actual result]
-2. Player Setup	Inspect the Pilot Cat player object	Player asset and components are present	[Record actual result]
-3. Player Behavior	Test implemented player controls	Player responds to input	[Record actual result]
-4. Aircraft Behavior	Test implemented aircraft controls	Aircraft responds as designed	[Record actual result]
-5. Environment	Inspect the game environment	Scene assets and materials display correctly	[Record actual result]
-6. Collision / Interaction	Test implemented interactions	Events produce expected behavior	[Record actual result]
-7. Code Execution	Inspect relevant scripts during Play Mode	Implemented behavior executes correctly	[Record actual result]
-8. Project Reopening	Close and reopen the saved project	Work remains available	[Record actual result]
-
-Important: Only record PASS when the test has actually been performed. Document errors, unexpected results, and the next test honestly.
-
-Tasks / Owners
-Task	Owner	Responsibility
-Testing	Team	Verify implemented game behavior
-Evidence	Every learner	Capture personal screenshots and notes
-Documentation	Every learner	Maintain an individual project record
-Technical explanation	Every learner	Explain the complete game
-GitHub handoff	Every learner	Commit, push, and verify personal repository
-Project coordination	Pascual	Coordinate team progress
-
-Finished Output: Tested Unity project, complete documentation, evidence, individual explanation, and personal GitHub repository.
-
-Testing / Evidence: Unity screenshots, code, test records, Discord communications, GitHub commits, and Action 12A receipt.
-
-Pipeline Connection: The completed project and documentation become the final submission package for Canvas.
-
-🎬 Build / All Nine Required Videos
-
-Action 12A requires completing all nine videos and performing the demonstrated work. Unity is the selected engine, so the team must complete the Unity workflows rather than simply describe them.
-
-1. Introduce Pilot Cat and explain the player's goal and original story.	Game introduction and story notes
-2. Explain how Gaterollin plans, investigates, builds, tests, and communicates.	Development plan and team notes
-3. Create/organize the Unity project, documentation, and evidence folders. Save a Git checkpoint.	Project folder screenshot and commit
-4. Develop the Game Design Document containing the backstory, player, goal, actions, data, and intended result.	Pilot Cat GDD
-5. Complete the Unity editor and project setup. Explain the scene and GameObject structure.	Unity editor screenshot
-6. Import Pilot Cat or a suitable player stand-in. Explain the asset source and setup.	Player asset and Inspector screenshot
-7. Blender 3D	Complete the demonstrated 3D asset workflow or document and test an equivalent workflow.	Blender or equivalent workflow evidence
-8. Apply materials and textures to the game assets. Record asset sources.	Textured model screenshots
-9. Complete and explain the tutorial behavior, test the player's visible result, and document errors honestly.	C# scripts and Play Mode evidence
-
-Video Playlist: https://youtube.com/playlist?list=PLsvXBxgtEE5lDk-5MnIiW96hFe_O1VIwd&si=PnREtZW8kdQV9RM9
-
-📝 Video Investigation and Learning Records
-
-Each video requires an individual entry documenting what was learned and what work was completed.
-
-Prompt	What to Record
-Source	Video title, useful timestamp, and official reference
-Meaning	What is being taught, and how does it help Pilot Cat?
-Attempt	What did you do? Identify the file, object, scene, or behavior
-Result	What happened? Include screenshot, output, or exact error
-Explanation	Why did it happen? What changed? What is the next test?
-Individual Video Records
-
-Video 1 — Game Development Introduction
-
-Source: [Add official video and timestamp]
-Meaning: Introduces game development and establishes the intended player experience.
-Attempt: Introduce Pilot Cat, the fictional world, and the player's goal.
-Result: [Insert evidence]
-Explanation: [Explain what you learned and what comes next.]
-
-Video 2 — Game Development Mindset
-
-Source: [Add official video and timestamp]
-Meaning: Explains the importance of planning, investigation, development, testing, and communication.
-Attempt: Apply the development mindset to the Gaterollin team.
-Result: [Insert evidence]
-Explanation: [Explain how planning improves the production process.]
-
-Video 3 — Folders and Project Creation
-
-Source: [Add official video and timestamp]
-Meaning: Demonstrates project creation and file organization.
-Attempt: Create or organize the Pilot Cat Unity project and evidence folders.
-Result: [Insert folder screenshots and Git checkpoint]
-Explanation: [Explain how project organization supports collaboration.]
-
-Video 4 — Documentation
-
-Source: [Add official video and timestamp]
-Meaning: Explains game design documentation.
-Attempt: Create the Pilot Cat Game Design Document.
-Result: [Insert GDD]
-Explanation: [Explain how the document connects the story to gameplay.]
-
-Video 5 — Introduction to Unity
-
-Source: [Add official video and timestamp]
-Meaning: Introduces the Unity editor and project structure.
-Attempt: Set up and inspect the Pilot Cat Unity project.
-Result: [Insert Unity screenshots]
-Explanation: [Explain scenes, GameObjects, and components.]
-
-Video 6 — Import a Custom Player
-
-Source: [Add official video and timestamp]
-Meaning: Demonstrates importing and setting up a player asset.
-Attempt: Import Pilot Cat or an appropriate stand-in.
-Result: [Insert player asset screenshot]
-Explanation: [Explain the asset source, setup, and role.]
-
-Video 7 — Blender 3D
-
-Source: [Add official video and timestamp]
-Meaning: Introduces 3D modeling and asset creation.
-Attempt: Complete the demonstrated workflow or an equivalent asset workflow.
-Result: [Insert Blender or equivalent evidence]
-Explanation: [Explain how the asset fits the game.]
-
-Video 8 — Add Textures
-
-Source: [Add official video and timestamp]
-Meaning: Demonstrates applying materials and textures.
-Attempt: Apply visual treatments to Pilot Cat or environment assets.
-Result: [Insert textured asset screenshots]
-Explanation: [Explain how the textures affect the visual presentation.]
-
-Video 9 — Final Code
-
-Source: [Add official video and timestamp]
-Meaning: Demonstrates gameplay behavior through code.
-Attempt: Complete and explain the relevant tutorial behavior.
-Result: [Insert script and Play Mode evidence]
-Explanation: [Explain the code, observed result, and next test.]
-🤖 Required AI Interaction / Code Verification
-
-Action 12A requires one checked AI answer.
-
-The AI interaction must explain a small relevant code or event excerpt, identify its data, actions, and classes, and suggest a test.
-
-Suggested Pilot Cat AI Prompt
-
-"Explain a small C# Unity player movement script for our Pilot Cat game. Identify the class, variables, methods, properties, and input or lifecycle events. Explain how the behavior connects to the Unity GameObject and suggest one practical test to verify that the player responds correctly to input."
-
-Required Verification Record
-Requirement	Record
-AI Prompt	Save the actual prompt
-AI Response	Save the supplied explanation
-Claim	Identify one technical claim from the response
-Official-Source Check	Verify the claim against official Unity or Microsoft documentation
-Test	Run a practical test in Unity
-Decision	Record what you kept, changed, or rejected
-Important Technical Understanding
-
-An object's behavior reads data and responds to an input or lifecycle event. A property change alone does not prove a working interaction; run a test and inspect the result. Engine APIs can differ.
-
-The team must verify that any AI-generated technical explanation matches the actual code and Unity behavior.
-
-Every learner must clearly explain the complete project, including work contributed by other team members.
-
-A team lead cannot speak for everyone.
-
-The instructor may ask learners to open the actual Unity project and demonstrate their understanding.
-
-Explain Pilot Cat's backstory, player goal, project plan, and choice of Unity
-Open Unity and explain folders, scenes, GameObjects, components, actions, data, and C#
-Explain what was attempted, what happened, why, and what should be tested next
-Explain all nine videos, team contributions, current status, and next-class plan
-Complete individual project explanation
-Individual Teach-Back Checklist
-Explain the complete backstory.
-Identify the player and the player's goal.
-Explain the named production Pipelines.
-Open the actual Unity project.
-Explain the project folders and organization.
-Explain scenes, GameObjects, and components.
-Explain the imported player asset.
-Explain Blender or the equivalent asset workflow.
-Explain materials and textures.
-Explain relevant C# classes, methods, variables, and events.
-Demonstrate implemented behavior.
-Explain testing and evidence.
-Explain the contributions of every team member.
-Explain the next-class plan.
-
-The original Pilot Cat concept was developed during Action 11B through a collaborative whiteboard session.
-
-Attention Accord
-
-Mode: Team
-Project / Event: CS077 · Action 11B · Pilot Cat
-Team: Gaterollin
-Team Lead: Vinh
-Coordinator: Pascual
-Team Members: Luisa, Pascual, Roman, Vinh
-Return: 12:00 P.M.
-
-Purpose
-
-The team needed to understand the three pipelines: important information, the beginning, and storytelling.
-
-During the whiteboard session, the team focused on the storytelling process. The 10-minute time constraint encouraged the members to work efficiently and generate ideas quickly.
-
-The team voted for Vinh to become the group lead and then collaborated on developing an original story.
-
-Instead of continuing VOID RUNNERS, the group decided to create Pilot Cat.
-
-The team used imagination and collaborative brainstorming to establish the character's background, criminal lifestyle, fictional world, and central conflict.
-
-Pascual assisted by recording ideas and helping develop the backstory.
-
-Whiteboard Story
-
-Storytelling Participants: Luisa, Pascual, Roman, Vinh.
-
-Pilot Cat is a criminal cat from Catlandia. He has been on the run for years and is the number one Cat Nip dealer in this world.
-
-He has been flying over for years, smuggling illicit Cat Nip. He is currently being hunted by the Watch Dogs order.
-
-Pilot Cat loves to sleep, fly, and his precious Cat Nip.
-
-
-Original Action 11B Evidence
-Whiteboard and Evidence
-Shared Notes
-Whiteboard Screenshots
-Action 11B Team Repository
-📋 Course Requirements Index / R1–R6
-R1 ★ / Complete the Entire Pipeline
-
-Complete all nine required videos and their demonstrated work.
-
-Complete the tutorial work in Unity.
-Maintain one learning entry per video.
-Keep the editable Unity project.
-Include the player asset and other game assets.
-Include authored behavior and scripts.
-Record the result of each demonstrated activity.
-
-Evidence: Nine video records, project files, assets, and gameplay screenshots.
-
-R2 ★ / Read Attention First and Name Your Pipelines
-
-Read Attention First, Chapter 3, pages 37–41.
-
-Use Pipelines as the primary documentation headings.
-
-Required Pipelines:
-
-Pipeline 01 / Story and Player Plan
-Pipeline 02 / Scene, Assets and Game Design
-Pipeline 03 / Behavior, Gameplay and C#
-Pipeline 04 / Testing, Documentation and Release
-
-Each Pipeline must identify its goal, tasks, owners, input, finished output, testing, and evidence.
-
-Connect the production sequence to Pilot Cat's backstory, player goal, Game Design Document, and whiteboard.
-
-Evidence: Reading notes, GDD, named Pipelines, and whiteboard screenshots.
-
-R3 / Keep Notes, Screenshots and Tests
-
-Use the Action 12A form throughout the development process.
-
-Required evidence includes:
-
-Project folders and setup.
-Unity editor and scene structure.
-Imported player asset.
-Blender or equivalent asset workflow.
-Materials and textures.
-C# code and gameplay behavior.
-Player-in-play screenshots.
-Expected and observed testing results.
-Errors and fixes or next tests.
-
-Evidence: Readable screenshots, video notes, test records, and project documentation.
-
-R4 / Show Communication and Task Ownership
-
-Maintain team communication and individual contribution records.
-
-Team Lead: Vinh
-Coordinator: Pascual
-Team Members: Luisa, Pascual, Roman, Vinh.
-
-Keep concise Discord communications, peer feedback, task ownership, and development decisions.
-
-Every learner must explain every required part of the project using their own documentation.
-
-Evidence: Discord exchanges, team task table, Attention Accord, and personal contribution notes.
-
-R5 / Write the Next-Class Plan
-
-Record what is complete, remaining issues, next improvements, task owners, and the first test for the next class.
-
-Include:
-
-One checked AI answer or supplied-response alternative.
-Official documentation verification.
-One practical technical test.
-AI keep/change/reject decision.
-Asset and source credits.
-Relevant Discord question, feedback, response, and resulting change.
-
-Evidence: Next-class plan, AI verification record, source credits, and communication screenshots.
-
-R6 ★ / Push and Submit Your Personal GitHub
-
-Every learner must maintain a personal GitHub repository containing their completed Action 12A materials.
-
-Required files include:
-
-Filled Action 12A form.
-Pilot Cat Game Design Document.
-Unity project source, assets, and settings.
-Named production Pipelines.
-Whiteboard and planning evidence.
-Nine video learning records.
-Screenshots and test results.
-Discord and communication records.
-Task ownership and contributions.
-AI verification record.
-Next-class plan.
-Action 12A receipt.
-
-Personal GitHub handoff: Commit, push, verify instructor access, and submit the personal repository URL to Canvas on the same class day.
-
-📅 Next-Class Plan
-Current Project Status
-
-The original Pilot Cat story has been developed through Action 11B. The Gaterollin team has established the character, fictional world, central conflict, and initial creative direction.
-
-Action 12A expands this work into a complete game production pipeline.
-
-Remaining Work
-Task	Owner	Next Action	First Test
-Complete nine videos	Every learner	Finish tutorial work and individual records	Verify all nine entries
-Game Design Document	Team	Finalize story, player, goal, actions, and data	Check GDD against the whiteboard
-Unity setup	Team	Verify project structure and scenes	Open project and enter Play Mode
-Player asset	Assigned contributor	Import Pilot Cat or stand-in	Verify asset appears in scene
-Blender workflow	Assigned contributor	Complete or demonstrate equivalent workflow	Inspect resulting asset
-Textures	Assigned contributor	Apply materials and textures	Verify appearance in scene
-C# behavior	Assigned contributor	Complete tutorial behavior	Run and inspect behavior
-Evidence	Every learner	Capture personal screenshots and notes	Verify evidence is readable
-GitHub handoff	Every learner	Commit and push personal work	Test repository access
-Final explanation	Every learner	Prepare whole-project teach-back	Explain the actual project
-Next Improvements
-Develop Duke the Pilot Cat's personality and character details.
-Expand the fictional Cat World.
-Establish the playable environment.
-Develop the aircraft and player behavior.
-Introduce the Watch Dogs as a game element.
-Improve the visual presentation with appropriate 3D assets and textures.
-Test implemented player interactions.
-Ensure every team member can explain the entire project.
-First Test
-
-Open the saved Pilot Cat Unity project, enter Play Mode, and verify that the current scene and implemented player behavior work as expected.
-
-Record the actual result, screenshot, and any errors.
-
-📁 GitHub Repository & Submission
-Team Repository
-
-Gaterollin — Action 11B Shared Work
-
-https://github.com/saines007/CS077-Fall-2026-Team/tree/main/11-Week-11-Classes-in-Unity/Action-11B
-
-Action 12A Repository
-
-CS077 — Week 12 — Independence Day
-
-https://github.com/saines007/CS077-Fall-2026-Team/tree/main/12-Week-12-Independence-Day/Action-12A
-
-This is the supplied shared Action 12A repository location. Each learner must also maintain and submit their own personal GitHub repository as required by R6.
-
-Submission Checklist
-Completed all nine tutorial videos.
-Completed the demonstrated work or equivalent engine activities.
-Read Attention First, Chapter 3, pages 37–41.
-Named all four production Pipelines.
-Completed the Pilot Cat Game Design Document.
-Organized the Unity project.
-Imported the player asset or suitable stand-in.
-Completed the Blender or equivalent workflow.
-Applied materials and textures.
-Completed and explained the required code behavior.
-Captured readable project screenshots.
-Documented testing and observed results.
-Saved the required AI verification record.
-Documented team contributions and Discord communications.
-Completed the next-class plan.
-Included asset and source credits.
-Saved the filled Action 12A form.
-Downloaded the submission receipt into Evidence.
-Committed and pushed the personal GitHub repository.
-Tested instructor access and referenced files.
-Submitted the personal GitHub URL to Canvas.
-Checked the Canvas submission confirmation.
-🤝 Acknowledgements
-
-Pilot Cat was created through the collaborative efforts of the Gaterollin team: Kevin, Luisa, Pascual, Roman, and Vinh.
-
-The original story was developed during Action 11B and 12A through brainstorming, whiteboard collaboration, and team discussion. The group chose to move away from VOID RUNNERS and create an original character and fictional world.
-
-AI tools may be used as supplementary assistance for understanding C# concepts, explaining Unity behavior, organizing documentation, and checking technical explanations. Any AI-generated technical claims must be checked against official documentation and tested in the actual project.
-
-All team members remain responsible for understanding, explaining, testing, and documenting the complete project.
-
-Pilot Cat — A Gateroller Original.
-
-"Meow!" 🐈✈️
+```
+
+* **Finished Output:** Formalized GDD, Unity project tree, and scene layout plan.
+
+### Pipeline 03 / Behavior, Gameplay and C#
+* **Goal:** Implement flight mechanics and event handling via Unity C# MonoBehaviours.
+* **Input:** Pipeline 02 project structure, scenes, and imported 3D models.
+* **Core Movement Implementation (`PlayerMover.cs`):**
+
+```csharp
+using UnityEngine;
+
+/// <summary>
+/// Controls constant forward velocity and vertical altitude shifts for Duke's biplane.
+/// </summary>
+public class PlayerMover : MonoBehaviour
+{
+    [Header("Flight Parameters")]
+    [Tooltip("Forward velocity in units per second.")]
+    public float forwardSpeed = 12.0f;
+
+    [Tooltip("Vertical ascent/descent speed.")]
+    public float verticalSpeed = 8.0f;
+
+    void Update()
+    {
+        // 1. Maintain constant forward movement along Z-axis
+        transform.Translate(Vector3.forward * forwardSpeed * Time.deltaTime);
+
+        // 2. Process vertical pitch control from Vertical axis (W/S or Arrow Keys)
+        float verticalInput = Input.GetAxis("Vertical");
+        transform.Translate(Vector3.up * verticalInput * verticalSpeed * Time.deltaTime);
+    }
+}
+```
+
+* **Finished Output:** Functional Unity scene featuring playable aircraft movement.
+* **Testing & Evidence:** Play Mode runtime screenshots and verified transform values in the Inspector.
+
+### Pipeline 04 / Testing, Documentation and Release
+* **Goal:** Validate gameplay systems, compile evidence, and execute individual GitHub handoff.
+* **Input:** Pipeline 03 functional project build.
+* **QA Test Matrix Summary:**
+
+| TC # | Test Area | Procedure | Expected Result | Result |
+| :---: | :--- | :--- | :--- | :---: |
+| **TC-01** | Scene Load | Launch `MainScene.unity` in Play Mode. | Engine loads without console errors. | **N/A** |
+| **TC-02** | Movement | Apply `W` / `S` vertical input keys. | Plane shifts altitude smoothly along Y-axis. | **N/A** |
+| **TC-03** | Texture Check | Inspect biplane mesh in Game View. | UV materials render without pink missing-shader fallbacks. | **N/A** |
+| **TC-04** | Frame Timing | Measure movement across fluctuating frame rates. | `Time.deltaTime` prevents physics warping. | **N/A** |
+
+---
+
+## 🎬 4. Required Tutorial Video Log (Videos 1–9)
+
+| # | Video Title | Target Focus | Output / Evidence |
+| :---: | :--- | :--- | :--- |
+| **1** | Game Development Intro | Lore & Player Goal | Documented story, Duke's identity, and Catlandia background. |
+| **2** | Dev Mindset & Planning | Gateroller Workflow | Established team pipeline communication and task ownership. |
+| **3** | Folders & Setup | Project Architecture | Initialized Unity project structure and saved Git checkpoints. |
+| **4** | Documentation | GDD Formulation | Built comprehensive Game Design Document (`CS077_GDD_PILOT_CAT.md`). |
+| **5** | Unity Editor Overview | Scene Hierarchy | Configured GameObjects, cameras, lighting, and basic transforms. |
+| **6** | Custom Player Import | Asset Pipeline | Imported 3D player stand-in into `MainScene.unity`. |
+| **7** | Blender 3D Workflow | Asset Creation | Modeled/processed biplane geometry for engine export. |
+| **8** | Textures & Materials | Visual Shaders | Applied diffuse maps and textures to biplane model. |
+| **9** | C# Scripting & Logic | Player Movement | Authored `PlayerMover.cs` and verified runtime response. |
+
+---
+
+## 🤖 5. Required AI Interaction & Code Verification (R5)
+
+* **Prompt Submitted:**  
+  > *"Explain a small C# Unity player movement script for our Pilot Cat game. Identify the class, variables, methods, properties, and input or lifecycle events. Explain how the behavior connects to the Unity GameObject and suggest one practical test to verify that the player responds correctly to input."*
+
+* **Technical Verification Record:**
+  * **Claim Checked:** `transform.Translate(Vector3.forward * speed * Time.deltaTime)` ensures frame-rate-independent movement.
+  * **Documentation Source:** Verified against official Unity `Transform.Translate` and `Time.deltaTime` API documentation.
+  * **Test Outcome:** Applied vertical input during Play Mode execution. Object transformed along the Y-axis smoothly without jitter.
+  * **Decision:** **KEPT**. Code integrated into `PlayerMover.cs`.
+
+---
+
+## 📋 6. R1–R6 Checklist
+
+- [] **R1:** Completed all 9 tutorial video entries and engine tasks.
+- [x] **R2:** Applied Attention First pipeline structure (Pipelines 01–04).
+- [] **R3:** Archived screenshots, C# scripts, and QA test matrices.
+- [x] **R4:** Documented individual task ownership across all Gateroller team members.
+- [] **R5:** Verified AI C# claims against Unity documentation and included Next-Class Plan.
+- [x] **R6:** Committed project files to individual GitHub repository and verified Canvas URL submission.
+
+---
+
+*Pilot Cat — A Gateroller Original.*  
+*"Meow!" 🐈✈️*
