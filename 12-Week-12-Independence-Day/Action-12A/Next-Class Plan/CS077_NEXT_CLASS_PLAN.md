@@ -37,9 +37,9 @@ The **Gateroller** team has successfully established the foundational framework 
 
 | Priority | Task Area | Owner | Target Action (13A) | Verification Method |
 | :---: | :--- | :--- | :--- | :--- |
-| 🔴 **P1** | **C# Flight Mechanics** | Vinh / Pascual | Attach `PlayerMover.cs` to Duke's *Viridescent Claw* model in `MainScene.unity`. | Enter Play Mode; verify vertical elevation and continuous forward movement. |
-| 🟡 **P2** | **Shaders & Assets** | Luisa | Apply materials/textures to Duke's plane model; configure URP Lit shaders. | Confirm missing pink shader fallbacks are fully resolved in Scene View. |
-| 🟡 **P3** | **QA Suite Execution** | Roman | Run test matrix **TC-01 through TC-08** inside Unity Editor. | Log actual observed pass/fail outcomes in `CS077_GDD_PILOT_CAT.md`. |
+| 🔴 **P1** | **C# Flight Mechanics** | [INSERT NAME] | Attach `PlayerMover.cs` to Duke's *Viridescent Claw* model in `MainScene.unity`. | Enter Play Mode; verify vertical elevation and continuous forward movement. |
+| 🟡 **P2** | **Shaders & Assets** | [INSERT NAME] | Apply materials/textures to Duke's plane model; configure URP Lit shaders. | Confirm missing pink shader fallbacks are fully resolved in Scene View. |
+| 🟡 **P3** | **QA Suite Execution** | [INSERT NAME] | Run test matrix **TC-01 through TC-08** inside Unity Editor. | Log actual observed pass/fail outcomes in `CS077_GDD_PILOT_CAT.md`. |
 | 🟢 **P4** | **Video Learning Logs** | All Members | Complete individual learning entries for Videos 1–9. | Ensure every log entry contains Attempt, Observed Result, and Explanation. |
 | 🟢 **P5** | **GitHub Sync (R6)** | All Members | Sync personal repository commits and verify link access. | Open personal GitHub URL in Incognito Mode to confirm instructor access. |
 
