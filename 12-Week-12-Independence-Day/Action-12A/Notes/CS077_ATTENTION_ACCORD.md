@@ -30,7 +30,7 @@ Promised evidence: Completed Pilot Cat Game Design Document (GDD), three Pipelin
 
 Team use: Everyone — Kevin, Luisa, Pascual, Roman, and Vinh
 
-What happened: [NEED TO COMPLETE]
+What happened: We all worked together as a team to complete the whiteboard pre planning and establish our development process. Taking the time to get ahead will help with the other tasks that must be completed before the end of the day. 
 
 Evidence location: Evidence: https://github.com/saines007/CS077-Fall-2026-Team/tree/main/12-Week-12-Independence-Day/Action-12A/Evidence
 
@@ -38,9 +38,9 @@ Shared notes: https://github.com/saines007/CS077-Fall-2026-Team/tree/main/12-Wee
 
 Whiteboard/Discord: https://github.com/saines007/CS077-Fall-2026-Team/tree/main/12-Week-12-Independence-Day/Action-12A/Evidence
 
-Interpretation: [NEED TO COMPLETE]
+Interpretation: The evidence shows that our Gaterollin team collaboratively developed an original story for Pilot Cat, established the three Pipelines (Important Information, The Beginning, and Storytelling), and created a foundation for turning our ideas into a playable Unity game. It also demonstrates teamwork, creative problem-solving, and shared planning.
 
-Next test: [NEED TO COMPLETE]
+Next test: The next task for each individual is to complete their assigned task. After completing the assigned task, we are to communicated with one another to ensure that we have successfully completed this week's work. This well help us gather information to establish our next test.
 
 
 ## Pascual
@@ -55,7 +55,7 @@ Promised evidence: Completed Pilot Cat Game Design Document (GDD), three Pipelin
 
 Team use: Everyone — Kevin, Luisa, Pascual, Roman, and Vinh
 
-What happened: I set up the GitHub repository before class to prepare adequately for today's class session. Taking the time to get ahead will help with the other tasks that must be completed before the end of the day.
+What happened: I set up the GitHub repository before class to prepare adequately for today's class session. Taking the time to get ahead will help with the other tasks that must be completed before the end of the day. We all worked together as a team to complete the whiteboard pre planning and establish our development process.
 
 Evidence location: Evidence: https://github.com/saines007/CS077-Fall-2026-Team/tree/main/12-Week-12-Independence-Day/Action-12A/Evidence
 
@@ -65,7 +65,7 @@ Whiteboard/Discord: https://github.com/saines007/CS077-Fall-2026-Team/tree/main/
 
 Interpretation: The evidence shows that our Gaterollin team collaboratively developed an original story for Pilot Cat, established the three Pipelines (Important Information, The Beginning, and Storytelling), and created a foundation for turning our ideas into a playable Unity game. It also demonstrates teamwork, creative problem-solving, and shared planning.
 
-Next test: I would suggest that everyone take part in completing an individual requirement if possible before class to save time for everyone. This will help us focus on learning and thinking critically that day over completing the small details in our working environment.
+Next test: I would suggest that everyone take part in completing an individual requirement if possible before class to save time for everyone. This will help us focus on learning and thinking critically that day over completing the small details in our working environment. The next task for each individual is to complete their assigned task. After completing the assigned task, we are to communicated with one another to ensure that we have successfully completed this week's work. This well help us gather information to establish our next test.
 
 
 ## Roman
@@ -80,7 +80,7 @@ Promised evidence: Completed Pilot Cat Game Design Document (GDD), three Pipelin
 
 Team use: Everyone — Kevin, Luisa, Pascual, Roman, and Vinh
 
-What happened: [NEED TO COMPLETE]
+What happened: We all worked together as a team to complete the whiteboard pre planning and establish our development process. Taking the time to get ahead will help with the other tasks that must be completed before the end of the day.
 
 Evidence location: Evidence: https://github.com/saines007/CS077-Fall-2026-Team/tree/main/12-Week-12-Independence-Day/Action-12A/Evidence
 
@@ -88,9 +88,9 @@ Shared notes: https://github.com/saines007/CS077-Fall-2026-Team/tree/main/12-Wee
 
 Whiteboard/Discord: https://github.com/saines007/CS077-Fall-2026-Team/tree/main/12-Week-12-Independence-Day/Action-12A/Evidence
 
-Interpretation: [NEED TO COMPLETE]
+Interpretation: The evidence shows that our Gaterollin team collaboratively developed an original story for Pilot Cat, established the three Pipelines (Important Information, The Beginning, and Storytelling), and created a foundation for turning our ideas into a playable Unity game. It also demonstrates teamwork, creative problem-solving, and shared planning.
 
-Next test: [NEED TO COMPLETE]
+Next test: The next task for each individual is to complete their assigned task. After completing the assigned task, we are to communicated with one another to ensure that we have successfully completed this week's work. This well help us gather information to establish our next test.
 
 
 ## Vinh
@@ -105,7 +105,7 @@ Promised evidence: Completed Pilot Cat Game Design Document (GDD), three Pipelin
 
 Team use: Everyone — Kevin, Luisa, Pascual, Roman, and Vinh
 
-What happened: [NEED TO COMPLETE]
+What happened: We all worked together as a team to complete the whiteboard pre planning and establish our development process. Taking the time to get ahead will help with the other tasks that must be completed before the end of the day.
 
 Evidence location: Evidence: https://github.com/saines007/CS077-Fall-2026-Team/tree/main/12-Week-12-Independence-Day/Action-12A/Evidence
 
@@ -113,9 +113,9 @@ Shared notes: https://github.com/saines007/CS077-Fall-2026-Team/tree/main/12-Wee
 
 Whiteboard/Discord: https://github.com/saines007/CS077-Fall-2026-Team/tree/main/12-Week-12-Independence-Day/Action-12A/Evidence
 
-Interpretation: [NEED TO COMPLETE]
+Interpretation: The evidence shows that our Gaterollin team collaboratively developed an original story for Pilot Cat, established the three Pipelines (Important Information, The Beginning, and Storytelling), and created a foundation for turning our ideas into a playable Unity game. It also demonstrates teamwork, creative problem-solving, and shared planning.
 
-Next test: [NEED TO COMPLETE]
+Next test: The next task for each individual is to complete their assigned task. After completing the assigned task, we are to communicated with one another to ensure that we have successfully completed this week's work. This well help us gather information to establish our next test.
 
 
 ## Whiteboard
