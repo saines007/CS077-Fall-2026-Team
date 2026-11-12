@@ -1,0 +1,20 @@
+CS077 / Action 12A / learner receipt
+Created: 2026-11-12T01:54:06.320Z
+Name: Luisa, Pascual, Roman, Vinh
+Personal GitHub: https://github.com/saines007/CS077-Fall-2026-Team/tree/main/12-Week-12-Independence-Day/Action-12A
+Engine: Unity, C#, 6.6.8f1
+Work mode: Group
+DECLARED PRESENT / ★ R1 / Complete the entire pipeline
+DECLARED PRESENT / ★ R2 / Read Attention First and name your Pipelines
+DECLARED PRESENT / ★ R3 / Keep notes, screenshots and tests
+DECLARED PRESENT / ★ R4 / Show communication and task ownership
+DECLARED PRESENT / ★ R5 / Write the next-class plan
+DECLARED PRESENT / ★ R6 / Push and submit your personal GitHub
+Videos: video1, video2, video3, video4, video5, video6, video7, video8, video9
+Evidence images in filled HTML: 0
+Communication/participation/punctuality: instructor review required.
+Canvas: https://sbccd.instructure.com/courses/66799/assignments/1919388
+Save in Evidence, commit, push, test access, then submit your personal GitHub URL to Canvas. This receipt does not verify attendance, understanding, grading, completed videos or Canvas submission.
+
+Required reading: Attention First / Chapter 3 / pp. 37-41
+Named Pipelines: We created our pipeline's on the whiteboard and in our game development document and both can be found here: https://github.com/saines007/CS077-Fall-2026-Team/tree/main/12-Week-12-Independence-Day/Action-12A/Evidence
