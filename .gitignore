@@ -367,6 +367,7 @@ FodyWeavers.xsd
 
 # Unity generated files
 **/Library/
+**/Temp/
 **/Obj/
 **/Build/
 **/Builds/
