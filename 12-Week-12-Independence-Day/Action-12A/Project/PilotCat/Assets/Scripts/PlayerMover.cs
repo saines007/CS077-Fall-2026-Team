@@ -16,6 +16,9 @@ public class PlayerMover : MonoBehaviour
 
     void Update()
     {
+        // Game is frozen after winning
+        if (Time.timeScale == 0f) return;
+
         // W/S or Up/Down arrows
         float vInput = Input.GetAxis("Vertical");
         transform.Translate(Vector3.up * vInput * verticalSpeed * Time.deltaTime, Space.World);
@@ -45,6 +48,11 @@ public class PlayerMover : MonoBehaviour
         {
             // Crash: restart the level
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+        else if (other.CompareTag("Beacon"))
+        {
+            // Reached the extraction beacon: win
+            if (ScoreKeeper.instance != null) ScoreKeeper.instance.Win();
         }
     }
 }
