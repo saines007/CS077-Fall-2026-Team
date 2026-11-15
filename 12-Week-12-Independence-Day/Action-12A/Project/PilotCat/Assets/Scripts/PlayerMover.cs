@@ -13,6 +13,8 @@ public class PlayerMover : MonoBehaviour
 
     [Header("Audio Settings")]
     public AudioSource pickupAudio;
+    public AudioClip shootSound;
+    [Range(0f, 1f)] public float shootVolume = 0.3f;
 
     void Update()
     {
@@ -33,6 +35,7 @@ public class PlayerMover : MonoBehaviour
         {
             Vector3 spawnPos = transform.position + Vector3.right * 1.5f;
             Instantiate(bulletPrefab, spawnPos, Quaternion.identity);
+            if (pickupAudio != null && shootSound != null) pickupAudio.PlayOneShot(shootSound, shootVolume);
         }
     }
 

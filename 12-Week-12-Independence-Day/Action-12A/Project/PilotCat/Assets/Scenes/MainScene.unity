@@ -280,6 +280,8 @@ MonoBehaviour:
   maxY: 5
   bulletPrefab: {fileID: 1570092928986578845, guid: 529348e38a4a40944bd2e38492cbc5b6, type: 3}
   pickupAudio: {fileID: 13482371}
+  shootSound: {fileID: 8300000, guid: 3e0b71a3bc20f2840bf798936bedfebc, type: 3}
+  shootVolume: 0.138
 --- !u!82 &13482371
 AudioSource:
   m_ObjectHideFlags: 0
