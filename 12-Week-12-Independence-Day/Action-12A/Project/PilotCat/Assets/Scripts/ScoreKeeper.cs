@@ -38,7 +38,7 @@ public class ScoreKeeper : MonoBehaviour
     {
         if (scoreText != null)
         {
-            scoreText.text = "Cat Nip: " + catNip + " / " + goal + "   Kills: " + kills;
+            scoreText.text = catNip + " / " + goal + "   Kills: " + kills;
         }
 
         // Enough Cat Nip collected: send in the extraction beacon
