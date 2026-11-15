@@ -14,6 +14,11 @@ public class ScoreKeeper : MonoBehaviour
     public GameObject beaconPrefab;
     public GameObject winMessage;
 
+    [Header("End Sounds")]
+    public AudioClip loseSound;
+    [Range(0f, 1f)] public float loseVolume = 0.8f;
+    public AudioSource music;
+
     bool beaconSent;
 
     void Awake()
@@ -57,6 +62,16 @@ public class ScoreKeeper : MonoBehaviour
 
     public void Lose()
     {
+        // Only once, even if two hazards hit at the same moment
+        if (Time.timeScale == 0f) return;
+
+        if (music != null) music.Stop();
+
+        if (loseSound != null)
+        {
+            AudioSource.PlayClipAtPoint(loseSound, Camera.main.transform.position, loseVolume);
+        }
+
         ShowEnd("Shot Down!");
     }
 
