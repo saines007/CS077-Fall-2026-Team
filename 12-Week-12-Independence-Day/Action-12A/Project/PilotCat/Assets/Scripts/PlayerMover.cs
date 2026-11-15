@@ -11,6 +11,9 @@ public class PlayerMover : MonoBehaviour
     [Header("Shooting")]
     public GameObject bulletPrefab;
 
+    [Header("Audio Settings")]
+    public AudioSource pickupAudio;
+
     void Update()
     {
         // W/S or Up/Down arrows
@@ -34,6 +37,7 @@ public class PlayerMover : MonoBehaviour
     {
         if (other.CompareTag("CatNip"))
         {
+            if (pickupAudio != null) pickupAudio.Play();
             ScoreKeeper.catNip++;
             Destroy(other.gameObject);
         }
