@@ -6,10 +6,11 @@ public class ScoreKeeper : MonoBehaviour
 {
     public static ScoreKeeper instance;
     public static int catNip;
+    public static int kills;
     public TMP_Text scoreText;
 
     [Header("Winning")]
-    public int goal = 10;
+    public int goal = 50;
     public GameObject beaconPrefab;
     public GameObject winMessage;
 
@@ -23,6 +24,7 @@ public class ScoreKeeper : MonoBehaviour
     void Start()
     {
         catNip = 0;
+        kills = 0;
         Time.timeScale = 1f;
         if (winMessage != null) winMessage.SetActive(false);
     }
@@ -31,7 +33,7 @@ public class ScoreKeeper : MonoBehaviour
     {
         if (scoreText != null)
         {
-            scoreText.text = "Cat Nip: " + catNip + " / " + goal;
+            scoreText.text = "Cat Nip: " + catNip + " / " + goal + "   Kills: " + kills;
         }
 
         // Enough Cat Nip collected: send in the extraction beacon
@@ -41,7 +43,7 @@ public class ScoreKeeper : MonoBehaviour
             Instantiate(beaconPrefab, new Vector3(12f, 0f, 0f), Quaternion.identity);
         }
 
-        // After winning, R restarts
+        // After the game ends, R restarts
         if (Time.timeScale == 0f && Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
@@ -50,7 +52,31 @@ public class ScoreKeeper : MonoBehaviour
 
     public void Win()
     {
-        if (winMessage != null) winMessage.SetActive(true);
+        ShowEnd("Delivery Complete!");
+    }
+
+    public void Lose()
+    {
+        ShowEnd("Shot Down!");
+    }
+
+    void ShowEnd(string title)
+    {
+        int finalScore = catNip * kills;
+
+        if (winMessage != null)
+        {
+            TMP_Text endText = winMessage.GetComponent<TMP_Text>();
+            if (endText != null)
+            {
+                endText.text = title + "\n"
+                    + "Cat Nip " + catNip + " x Kills " + kills + "\n"
+                    + "Score: " + finalScore + "\n"
+                    + "Press R to play again";
+            }
+            winMessage.SetActive(true);
+        }
+
         Time.timeScale = 0f;
     }
 }

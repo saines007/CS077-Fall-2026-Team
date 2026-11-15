@@ -47,7 +47,7 @@ public class PlayerMover : MonoBehaviour
         else if (other.CompareTag("Hazard"))
         {
             // Crash: restart the level
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            if (ScoreKeeper.instance != null) ScoreKeeper.instance.Lose();
         }
         else if (other.CompareTag("Beacon"))
         {

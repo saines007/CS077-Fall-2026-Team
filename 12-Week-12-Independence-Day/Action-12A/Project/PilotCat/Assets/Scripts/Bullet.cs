@@ -3,6 +3,8 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public float speed = 16f;
+    public AudioClip explodeSound;
+    [Range(0f, 1f)] public float explodeVolume = 0.4f;
 
     void Update()
     {
@@ -16,6 +18,14 @@ public class Bullet : MonoBehaviour
     {
         if (other.CompareTag("Hazard"))
         {
+            ScoreKeeper.kills++;
+
+            // Play the boom at the camera so it's always full volume
+            if (explodeSound != null)
+            {
+                AudioSource.PlayClipAtPoint(explodeSound, Camera.main.transform.position, explodeVolume);
+            }
+
             Destroy(other.gameObject);
             Destroy(gameObject);
         }
