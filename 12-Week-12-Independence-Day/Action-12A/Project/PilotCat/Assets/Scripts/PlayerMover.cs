@@ -15,6 +15,8 @@ public class PlayerMover : MonoBehaviour
     public AudioSource pickupAudio;
     public AudioClip shootSound;
     [Range(0f, 1f)] public float shootVolume = 0.3f;
+    public AudioClip pickupSound;
+    [Range(0f, 3f)] public float pickupVolume = 2f;
 
     void Update()
     {
@@ -43,7 +45,16 @@ public class PlayerMover : MonoBehaviour
     {
         if (other.CompareTag("CatNip"))
         {
-            if (pickupAudio != null) pickupAudio.Play();
+            if (pickupAudio != null && pickupSound != null)
+            {
+                // Stack copies to go louder than 1
+                float v = pickupVolume;
+                while (v > 0f)
+                {
+                    pickupAudio.PlayOneShot(pickupSound, Mathf.Min(v, 1f));
+                    v -= 1f;
+                }
+            }
             ScoreKeeper.catNip++;
             Destroy(other.gameObject);
         }
