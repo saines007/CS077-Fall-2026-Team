@@ -87,28 +87,21 @@ Per **R2 standards**, documentation is organized around four distinct production
 * **Repository Architecture:**
 
 ```text
-Project/PilotCat/
-├── Assets/
-│   ├── Audio/               <-- Sound effects for flight & spawners
-│   ├── Materials/
-│   ├── Models/              <-- Duke, Viridescent Claw, & Watchdog models
-│   ├── Prefabs/             <-- Bullets, particles, & spawned entities
-│   ├── Scenes/              <-- Active multi-scene Unity builds
-│   ├── Scripts/
-│   │   ├── BackgroundScroll.cs
-│   │   ├── Bullet.cs
-│   │   ├── FaceCamera.cs
-│   │   ├── PlaneTilt.cs
-│   │   ├── PlayerMover.cs
-│   │   ├── ScoreKeeper.cs
-│   │   ├── ScrollLeft.cs
-│   │   ├── SkyPan.cs
-│   │   ├── Spawner.cs
-│   │   └── Spin.cs
-│   ├── Textures/
-│   └── UI/                  <-- Cat Nip score display
-├── Evidence/                <-- R6 Submission screenshots & receipts
+Action-12A/
+├── Evidence/                <-- Screenshots, GDD (CS077_PILOT_CAT_GDD.md), & receipts
 ├── Next-Class Plan/         <-- CS077_NEXT_CLASS_PLAN.md
+├── Notes/                   <-- Attention Accord & 12A session notes
+├── Project/PilotCat/
+│   └── Assets/
+│       ├── Catnip_model/    <-- Collectible Cat Nip model
+│       ├── Plane_model/     <-- Duke & Viridescent Claw biplane model
+│       ├── Watchdog_model/  <-- Watch Dogs Order enemy model
+│       ├── Prefabs/         <-- Bullets, particles, & spawned prefabs
+│       ├── Scenes/          <-- Active multi-scene Unity builds
+│       └── Scripts/         <-- C# gameplay & UI scripts
+├── Source/
+├── Submission/
+├── CREDITS.md
 └── README.md
 ```
 
