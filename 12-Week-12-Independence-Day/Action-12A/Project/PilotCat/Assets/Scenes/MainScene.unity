@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 13482365}
   - component: {fileID: 13482370}
   - component: {fileID: 13482371}
+  - component: {fileID: 13482372}
   m_Layer: 0
   m_Name: PilotCat_Aircraft
   m_TagString: Untagged
@@ -278,6 +279,9 @@ MonoBehaviour:
   verticalSpeed: 8
   minY: -5
   maxY: 5
+  horizontalSpeed: 8
+  minX: -11
+  maxX: 11
   bulletPrefab: {fileID: 1570092928986578845, guid: 529348e38a4a40944bd2e38492cbc5b6, type: 3}
   pickupAudio: {fileID: 13482371}
   shootSound: {fileID: 8300000, guid: 3e0b71a3bc20f2840bf798936bedfebc, type: 3}
@@ -381,6 +385,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &13482372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13482364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2832e32f16fc25149af868f84461811f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FaceCamera
 --- !u!1 &47234451
 GameObject:
   m_ObjectHideFlags: 0

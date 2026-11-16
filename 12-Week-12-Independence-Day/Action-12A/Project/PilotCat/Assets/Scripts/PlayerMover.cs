@@ -7,6 +7,9 @@ public class PlayerMover : MonoBehaviour
     public float verticalSpeed = 8.0f;
     public float minY = -4f;
     public float maxY = 4f;
+    public float horizontalSpeed = 8.0f;
+    public float minX = -9f;
+    public float maxX = 6f;
 
     [Header("Shooting")]
     public GameObject bulletPrefab;
@@ -23,12 +26,15 @@ public class PlayerMover : MonoBehaviour
         // Game is frozen after winning
         if (Time.timeScale == 0f) return;
 
-        // W/S or Up/Down arrows
+        // W/S or Up/Down = vertical, A/D or Left/Right = horizontal
         float vInput = Input.GetAxis("Vertical");
-        transform.Translate(Vector3.up * vInput * verticalSpeed * Time.deltaTime, Space.World);
+        float hInput = Input.GetAxis("Horizontal");
+        Vector3 move = new Vector3(hInput * horizontalSpeed, vInput * verticalSpeed, 0f);
+        transform.Translate(move * Time.deltaTime, Space.World);
 
         // Keep the plane on screen
         Vector3 pos = transform.position;
+        pos.x = Mathf.Clamp(pos.x, minX, maxX);
         pos.y = Mathf.Clamp(pos.y, minY, maxY);
         transform.position = pos;
 
