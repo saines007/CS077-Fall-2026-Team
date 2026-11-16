@@ -4,6 +4,7 @@ public class Bullet : MonoBehaviour
 {
     public float speed = 16f;
     public AudioClip explodeSound;
+    public GameObject popEffect;
     [Range(0f, 1f)] public float explodeVolume = 0.4f;
 
     void Update()
@@ -26,6 +27,10 @@ public class Bullet : MonoBehaviour
                 AudioSource.PlayClipAtPoint(explodeSound, Camera.main.transform.position, explodeVolume);
             }
 
+            if (popEffect != null) Instantiate(popEffect, other.transform.position, Quaternion.identity);
+
+            Destroy(other.gameObject);
+            Destroy(gameObject);
             Destroy(other.gameObject);
             Destroy(gameObject);
         }
