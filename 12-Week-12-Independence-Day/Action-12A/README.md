@@ -71,41 +71,51 @@ Per **R2 standards**, documentation is organized around four distinct production
 * **Input:** Action 11B Attention Accord, team whiteboard, and Discord planning.
 * **Actions & Data Mapping:**
 
-```
-  [ Player Input ] ──► [ Player Mover Script ] ──► [ Viridescent Claw Transform ]
-                              │
-                              ▼
-                  [ Position / Altitude Data ] ──► [ Game Boundaries Check ]
+```text
+  [ Player Input ] ──► [ PlayerMover & PlaneTilt ] ──► [ Viridescent Claw Transform ]
+         │                                                           │
+         ▼                                                           ▼
+  [ Bullet / Particles ] ──► [ Spawner & Collisions ] ──► [ ScoreKeeper (Cat Nip UI) ]
 ```
 
 * **Finished Output:** Backstory, character concept, player goals, and world parameters.
 * **Testing & Evidence:** Whiteboard screenshots, Attention Accord, and team Discord records.
 
 ### Pipeline 02 / Scene, Assets and Game Design
-* **Goal:** Translate lore into visual Unity engine structures and organized folder hierarchies.
+* **Goal:** Translate lore into visual Unity engine structures, multi-scene layouts, and organized folder hierarchies.
 * **Input:** Pipeline 01 backstory and entity requirements.
 * **Repository Architecture:**
 
 ```text
-PilotCat/
+Project/PilotCat/
 ├── Assets/
-│   ├── Audio/
+│   ├── Audio/               <-- Sound effects for flight & spawners
 │   ├── Materials/
-│   ├── Models/         <-- Duke & Viridescent Claw assets
-│   ├── Prefabs/
-│   ├── Scenes/         <-- MainScene.unity
-│   ├── Scripts/        <-- PlayerMover.cs, GameManager.cs
+│   ├── Models/              <-- Duke, Viridescent Claw, & Watchdog models
+│   ├── Prefabs/             <-- Bullets, particles, & spawned entities
+│   ├── Scenes/              <-- Active multi-scene Unity builds
+│   ├── Scripts/
+│   │   ├── BackgroundScroll.cs
+│   │   ├── Bullet.cs
+│   │   ├── FaceCamera.cs
+│   │   ├── PlaneTilt.cs
+│   │   ├── PlayerMover.cs
+│   │   ├── ScoreKeeper.cs
+│   │   ├── ScrollLeft.cs
+│   │   ├── SkyPan.cs
+│   │   ├── Spawner.cs
+│   │   └── Spin.cs
 │   ├── Textures/
-│   └── UI/
-├── Evidence/           <-- R6 Submission screenshots & receipts
-├── Next-Class Plan/    <-- NEXT_CLASS_PLAN.md
+│   └── UI/                  <-- Cat Nip score display
+├── Evidence/                <-- R6 Submission screenshots & receipts
+├── Next-Class Plan/         <-- CS077_NEXT_CLASS_PLAN.md
 └── README.md
 ```
 
-* **Finished Output:** Formalized GDD, Unity project tree, and scene layout plan.
+* **Finished Output:** Formalized GDD, Unity project tree, and multi-scene layout plan.
 
 ### Pipeline 03 / Behavior, Gameplay and C#
-* **Goal:** Implement flight mechanics and event handling via Unity C# MonoBehaviours.
+* **Goal:** Implement flight mechanics, environmental scrolling, combat particles, and UI score tracking via Unity C# MonoBehaviours.
 * **Input:** Pipeline 02 project structure, scenes, and imported 3D models.
 * **Core Movement Implementation (`PlayerMover.cs`):**
 
@@ -136,8 +146,13 @@ public class PlayerMover : MonoBehaviour
 }
 ```
 
-* **Finished Output:** Functional Unity scene featuring playable aircraft movement.
-* **Testing & Evidence:** Play Mode runtime screenshots and verified transform values in the Inspector.
+* **Expanded Gameplay Systems (`Assets/Scripts/`):**
+  * **Flight & Aircraft Polish:** `PlayerMover.cs` was expanded to support left/right horizontal maneuvering alongside vertical control, paired with `PlaneTilt.cs` for dynamic banking tilt and `Spin.cs` for continuous propeller rotation.
+  * **Environment & Camera:** `BackgroundScroll.cs`, `ScrollLeft.cs`, and `SkyPan.cs` drive continuous parallax movement across the sky and ocean layers, while `FaceCamera.cs` keeps world-space elements oriented toward the camera.
+  * **Combat, Spawning & UI:** `Bullet.cs` handles projectile firing with particle effects, `Spawner.cs` generates timed obstacles/entities with audio, and `ScoreKeeper.cs` tracks Cat Nip pickups in the UI.
+
+* **Finished Output:** Functional multi-scene Unity build featuring playable aircraft movement, tilting, particles, audio, parallax scrolling, and score UI.
+* **Testing & Evidence:** Play Mode runtime screenshots and verified transform/UI values in the Inspector.
 
 ### Pipeline 04 / Testing, Documentation and Release
 * **Goal:** Validate gameplay systems, compile evidence, and execute individual GitHub handoff.
@@ -146,10 +161,11 @@ public class PlayerMover : MonoBehaviour
 
 | TC # | Test Area | Procedure | Expected Result | Result |
 | :---: | :--- | :--- | :--- | :---: |
-| **TC-01** | Scene Load | Launch `MainScene.unity` in Play Mode. | Engine loads without console errors. | **PASS** |
-| **TC-02** | Movement | Apply `W` / `S` vertical input keys. | Plane shifts altitude smoothly along Y-axis. | **PASS** |
-| **TC-03** | Texture Check | Inspect biplane mesh in Game View. | UV materials render without pink missing-shader fallbacks. | **PASS** |
-| **TC-04** | Frame Timing | Measure movement across fluctuating frame rates. | `Time.deltaTime` prevents physics warping. | **PASS** |
+| **TC-01** | Scene Load | Launch active scenes in Play Mode. | Engine loads without console errors. | **PASS** |
+| **TC-02** | Multi-Axis Flight & Tilt | Apply vertical (`W`/`S`) and horizontal (`A`/`D` or Arrows) inputs. | Plane maneuvers smoothly and banks via `PlaneTilt.cs`. | **PASS** |
+| **TC-03** | Visuals & Propeller | Inspect biplane, propeller, and Watchdog models in Game View. | UV materials render properly and `Spin.cs` rotates propeller. | **PASS** |
+| **TC-04** | Frame Timing & Scroll | Measure movement and background scrolling across frames. | `Time.deltaTime`, `BackgroundScroll.cs`, and `SkyPan.cs` run smoothly. | **PASS** |
+| **TC-05** | Projectiles & Cat Nip UI | Fire `Bullet.cs` projectiles and collect Cat Nip items. | Particle effects trigger and `ScoreKeeper.cs` updates the UI score. | **PASS** |
 
 ---
 
@@ -162,10 +178,10 @@ public class PlayerMover : MonoBehaviour
 | **3** | Folders & Setup | Project Architecture | Initialized Unity project structure and saved Git checkpoints. |
 | **4** | Documentation | GDD Formulation | Built comprehensive Game Design Document (`CS077_GDD_PILOT_CAT.md`). |
 | **5** | Unity Editor Overview | Scene Hierarchy | Configured GameObjects, cameras, lighting, and basic transforms. |
-| **6** | Custom Player Import | Asset Pipeline | Imported 3D player stand-in into `MainScene.unity`. |
-| **7** | Blender 3D Workflow | Asset Creation | Modeled/processed biplane geometry for engine export. |
-| **8** | Textures & Materials | Visual Shaders | Applied diffuse maps and textures to biplane model. |
-| **9** | C# Scripting & Logic | Player Movement | Authored `PlayerMover.cs` and verified runtime response. |
+| **6** | Custom Player Import | Asset Pipeline | Imported 3D player stand-in into Unity scene. |
+| **7** | Blender 3D Workflow | Asset Creation | Modeled/processed biplane and Watchdog geometry for export. |
+| **8** | Textures & Materials | Visual Shaders | Applied diffuse maps, textures, and particle effects. |
+| **9** | C# Scripting & Logic | Player Movement | Authored and integrated gameplay scripts (`PlayerMover.cs`, `PlaneTilt.cs`, `ScoreKeeper.cs`, etc.). |
 
 ---
 
@@ -177,8 +193,8 @@ public class PlayerMover : MonoBehaviour
 * **Technical Verification Record:**
   * **Claim Checked:** `transform.Translate(Vector3.forward * speed * Time.deltaTime)` ensures frame-rate-independent movement.
   * **Documentation Source:** Verified against official Unity `Transform.Translate` and `Time.deltaTime` API documentation.
-  * **Test Outcome:** Applied vertical input during Play Mode execution. Object transformed along the Y-axis smoothly without jitter.
-  * **Decision:** **KEPT**. Code integrated into `PlayerMover.cs`.
+  * **Test Outcome:** Applied vertical and horizontal inputs during Play Mode execution across the updated `Project/PilotCat/` build. Object transformed smoothly without jitter, tilted dynamically, fired particle projectiles, and updated the Cat Nip UI counter.
+  * **Decision:** **KEPT**. Code integrated into `PlayerMover.cs` and verified alongside the team's expanded script suite.
 
 ---
 
