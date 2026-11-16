@@ -146,10 +146,10 @@ public class PlayerMover : MonoBehaviour
 
 | TC # | Test Area | Procedure | Expected Result | Result |
 | :---: | :--- | :--- | :--- | :---: |
-| **TC-01** | Scene Load | Launch `MainScene.unity` in Play Mode. | Engine loads without console errors. | **N/A** |
-| **TC-02** | Movement | Apply `W` / `S` vertical input keys. | Plane shifts altitude smoothly along Y-axis. | **N/A** |
-| **TC-03** | Texture Check | Inspect biplane mesh in Game View. | UV materials render without pink missing-shader fallbacks. | **N/A** |
-| **TC-04** | Frame Timing | Measure movement across fluctuating frame rates. | `Time.deltaTime` prevents physics warping. | **N/A** |
+| **TC-01** | Scene Load | Launch `MainScene.unity` in Play Mode. | Engine loads without console errors. | **PASS** |
+| **TC-02** | Movement | Apply `W` / `S` vertical input keys. | Plane shifts altitude smoothly along Y-axis. | **PASS** |
+| **TC-03** | Texture Check | Inspect biplane mesh in Game View. | UV materials render without pink missing-shader fallbacks. | **PASS** |
+| **TC-04** | Frame Timing | Measure movement across fluctuating frame rates. | `Time.deltaTime` prevents physics warping. | **PASS** |
 
 ---
 
@@ -184,11 +184,11 @@ public class PlayerMover : MonoBehaviour
 
 ## 📋 6. R1–R6 Checklist
 
-- [] **R1:** Completed all 9 tutorial video entries and engine tasks.
+- [x] **R1:** Completed all 9 tutorial video entries and engine tasks.
 - [x] **R2:** Applied Attention First pipeline structure (Pipelines 01–04).
-- [] **R3:** Archived screenshots, C# scripts, and QA test matrices.
+- [x] **R3:** Archived screenshots, C# scripts, and QA test matrices.
 - [x] **R4:** Documented individual task ownership across all Gateroller team members.
-- [] **R5:** Verified AI C# claims against Unity documentation and included Next-Class Plan.
+- [x] **R5:** Verified AI C# claims against Unity documentation and included Next-Class Plan.
 - [x] **R6:** Committed project files to individual GitHub repository and verified Canvas URL submission.
 
 ---
