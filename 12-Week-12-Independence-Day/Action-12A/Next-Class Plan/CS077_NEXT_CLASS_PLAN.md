@@ -31,9 +31,9 @@ The **Gateroller** team has completed the core playable loop, repository sync, a
 * **Completed in 12A (Repo Sync, QA & Docs):** Pushed all `.meta` files and `Packages` to GitHub, verified clean cross-machine project loading and test cases **TC-01 through TC-09** in `MainScene.unity` ahead of the Gatekeeper walkthrough, and documented pipelines, controls, and credits in `CS077_PILOT_CAT_GDD.md`.
 
 * **Remaining Issues to Resolve in 13A:**
-     Add a dedicated Start/Title screen so the game does not launch directly into active spawning on frame 1.
-     Add player health/shield feedback so collisions feel more forgiving than instant one-hit game over.
-     Expand replayability with collectible aerial power-ups and high-score persistence.
+1. Add a dedicated Start/Title screen so the game does not launch directly into active spawning on frame 1.
+2. Add player health/shield feedback so collisions feel more forgiving than instant one-hit game over.
+3. Expand replayability with collectible aerial power-ups and high-score persistence.
 
 > 💡 **Goal for Action 13A:** Expand the playable prototype with a Start/Title Menu, a 3-heart Health/Shield system, aerial power-ups, and persistent high-score tracking.
 
